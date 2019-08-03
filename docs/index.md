@@ -1,25 +1,24 @@
-# Welcome to MkDocs
+# Embedded Computer
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+Willkommen beim Embedded Computer Kurs der KinderUni/EHK. 
 
-## Commands
+bla bla bla
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+BBC micro:bit
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-## A section
-
-Please see the [test page](test1.md) for further details.
+Python
 
 
 
+# Lektionen
+
+Here all lessons are linked
+
+*   [Template](template_lesson.md)
+*   [Lektion 1 - Hello World](template_lesson.md)
+
+
+
+# Teacher Stuff
+
+Please see the [cheatsheet](cheatsheet.md) for markdown snippets.

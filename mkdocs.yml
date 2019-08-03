@@ -2,6 +2,7 @@ site_name: Kinder Uni - Embedded Computer
 
 nav:
   - Home: index.md
-  - Test 1: test1.md
+  - Cheatsheet: cheatsheet.md
+  - Lesson 1: template_lesson.md
 
 #theme: readthedocs
