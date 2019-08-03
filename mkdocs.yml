@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: Kinder Uni - Embedded Computer
+
+nav:
+  - Home: index.md
+  - Test 1: test1.md
+
+#theme: readthedocs
