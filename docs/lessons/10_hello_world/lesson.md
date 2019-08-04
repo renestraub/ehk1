@@ -90,10 +90,13 @@ Bisher haben wir das Program nur auf dem Computer ausgeführt. Jetzt wollen wir 
 Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 
 
-*   Gib dem Programm einen Namen in dem Feld unten in der Mitte. Unter diesem Namen wirst du es später auch wieder finden.
+*   Gib dem Programm den Namen "Hello World" in dem Feld unten in der Mitte. Unter diesem Namen wirst du es später auch wieder finden.
 *   Wähle **Herunterladen** 
     *   Es öffnet sich ein Fenster das fragt wohin gespeicher werden soll.
     *   Wähle den Microbit. Dies ist etwas schwierig beim ersten Mal. Wir helfen dir bei diesem Schritt.
+
+![](image5.png)
+
 *   Während einiger Sekunden überträgt der Computer das Programm nun auf deinen micro:bit. Du siehst das an der gelben Leuchtdiode (LED) neben dem USB Anschluss. Sie blinkt rasch. Wenn der Download beendet ist, leuchter sie wieder dauernd.
 *   Wenn alles geklappt hat siehst du nun die Laufschrift auf dem micro:bit
 
