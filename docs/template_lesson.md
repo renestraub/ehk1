@@ -20,7 +20,7 @@ Scroll Schrift mit eigenem Namen
 
 ## Programmierung
 
-### Teil 1 - [makecode::hello world 1](https://makecode.microbit.org/_8MPCeJCkVXjW)
+### Schritt 1 - [makecode::hello world 1](https://makecode.microbit.org/_8MPCeJCkVXjW)
 
 *   Aufruf Makecode Website https://makecode.microbit.org/#editor
 *   Sprache auf Deutsch ändern: Zahnrad Symbol -> Language -> German
@@ -36,7 +36,7 @@ Scroll Schrift mit eigenem Namen
 *   Download auf Micro:bit zeigen
 
 
-### Teil 2 - [makecode::hello world 2](https://makecode.microbit.org/_AMCWUATzHHi8)
+### Schritt 2 - [makecode::hello world 2](https://makecode.microbit.org/_AMCWUATzHHi8)
 
 Umbau des Prohgrams so dass Text dauernd läuft
 
@@ -50,5 +50,6 @@ Umbau des Prohgrams so dass Text dauernd läuft
 
 ## Was haben wir gelernt
 
-In dieser Lektion haben wir ...
-
+*   Erstellen eines neues Programmes im Block Editor
+*   Testen/ausprobieren des Programms im Simulator
+*   Herunterladen und starten des Programs auf dem micro:bit
