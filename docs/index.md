@@ -2,23 +2,20 @@
 
 Willkommen beim Embedded Computer Kurs der KinderUni/EHK. 
 
-bla bla bla
+Kaum ein Gerät kommt heute ohne eine elektronische Steuerung aus. Meistens sind dies kleine, eingebaute (Embedded) Computer. In einem Auto sind gegen Hundert solche Embedded Computer vorhanden. Im Gegensatz zu den grossen PC sind diese viel kleiner und haben keinen Bildschirm und keine Tastatur. Dafür können sie Bewegungen feststellen, einen Taster abfragen oder Licht erkennen.
 
-BBC micro:bit
+In diesem Kurs wollen wir lernen wie ein solcher Computer programmiert werden kann. Dazu verwenden wir einen BBC micro:bit Computer den jeder Teilnehmer anschliessend nach Hause mitnehmen kann. Die Programme entwickeln wir grafisch am Computer (Microsoft Makecode). Vorkenntnisse sind dazu keine notwendig.
 
-Python
+Nach einer gemeinsamen Einführung in die Programmierung kann jeder Teilnehmer selber ein Programm schreiben. Zur Auswahl stehen unter anderem Schulsackalarm, Papierklavier oder Velobremslicht.
+
 
 
 
 # Lektionen
 
-Here all lessons are linked
+Du findest eine Übersicht aller Lektionen dieses Kurses auf der [folgenden Seite](lessons/index.md).
 
-*   [Template](template_lesson.md)
-*   [Lektion 1 - Hello World](template_lesson.md)
+Wenn du direkt zu einer Lektion springen willst kannst du die folgenden Links verwenden:
 
+*   [Hello World](lessons/10_hello_world/lesson.md)
 
-
-# Teacher Stuff
-
-Please see the [cheatsheet](cheatsheet.md) for markdown snippets.
