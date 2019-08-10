@@ -2,8 +2,11 @@ site_name: Kinder Uni - Embedded Computer
 
 nav:
   - Home: index.md
-  - lessons/index.md
-#  - lessons/10_hello_world/lesson.md
-  - Links: links.md
+  - Infos:
+    - info_way.md 
+    - info_material.md 
+  - Lektionen:
+    - lessons/10_hello_world/lesson.md
+  - links.md
 
 #theme: readthedocs

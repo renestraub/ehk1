@@ -10,6 +10,14 @@ Nach einer gemeinsamen Einführung in die Programmierung kann jeder Teilnehmer s
 
 
 
+# Teilnehmer Informationen
+
+Auf den folgenden Seiten finden sich die wichtigsten Informationen für Euch. Bitte lest diese bevor ihr den Kurs besucht. Falls ihr noch Fragen habt, meldet euch bitte beim EHK.
+
+*   [Wegbeschreibung](info_way.md)
+*   [Kursmaterial](info_material.md)
+
+  
 
 # Lektionen
 
@@ -17,5 +25,4 @@ Du findest eine Übersicht aller Lektionen dieses Kurses auf der [folgenden Seit
 
 Wenn du direkt zu einer Lektion springen willst kannst du die folgenden Links verwenden:
 
-*   [Hello World](lessons/10_hello_world/lesson.md)
-
+*   [Hello World](lessons/10_hello_world/lesson.md): Das erste Program, Einstieg in die Block Programmierung mit Makecode
