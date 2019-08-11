@@ -17,7 +17,7 @@ An den Notebook werden keine speziellen Anforderungen gestellt. Jedes einigermas
 *   Genügend grosser Bildschirm um die Makecode Webseite nutzen zu können (1280x900 oder besser).
 *   Wi-Fi für Internetzugang (Verbindung über das Public WLAN von NetModule).
 *   Webbrowser, wir arbeiten mit Chrome oder Firefox.
-*   USB Typ A Anschluss (siehe Bild unten). Entweder USB 2.0 oder 3.0. Achtung: Die neuen USB Typ C Anschlüsse funktionieren nicht ohne weiteres. Hierfür wird ein kleines Adapterkabel (z.B. [dieses](https://www.apple.com/ch-de/shop/product/MJ1M2ZM/A/usb%E2%80%91c-auf-usb-adapter) benötigt. Dies Problem betrifft allem neuere Apple Macbooks, welche keinen Anschluss des Typs A mehr zu Verfügung stellen.).
+*   USB Typ A Anschluss (siehe Bild unten). Entweder USB 2.0 oder 3.0. Achtung: Die neuen USB Typ C Anschlüsse funktionieren nicht ohne weiteres. Hierfür wird ein kleines Adapterkabel (z.B. [dieses](https://www.apple.com/ch-de/shop/product/MJ1M2ZM/A/usb%E2%80%91c-auf-usb-adapter)) benötigt. Dies betrifft allem neuere Apple Macbooks, welche keinen Anschluss des Typs A mehr zu Verfügung stellen.
 *   Falls gewünscht Maus, die Bedienung des Browser geht dadurch einfacher.
 
 Bitte das Netzteil nicht vergessen, damit euch nicht der Strom ausgeht!
