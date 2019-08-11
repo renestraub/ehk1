@@ -9,18 +9,16 @@ Wenn alles klappt ändern wir das Program so ab dass es deinen Namen anzeigt.
 
 ## Verwendete Technologien
 
-* Makecode Block Editor
-* Block Programmiersprache
-* Simulator und micro:bit Computer
+*   Makecode Block Editor
+*   Block Programmiersprache
+*   Simulator und micro:bit Computer
 
 
 ## Programmierung
 
 ### Schritt 1 - Das Program schreiben
 
-[makecode::hello world 1](https://makecode.microbit.org/_dxuFzf6HUVPy)
-
-*   Oeffne die Makecode Website im Browser https://makecode.microbit.org/. 
+*   Oeffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
 *   Klicke **Neues Projekt**.
     *   Je nach Einstellung ist die Sprache noch auf Englisch eingestellt. In diesem Fall ändere die Sprache auf Deutsch:
     * Zahnrad Symbol -> Language -> Deutsch (German)
@@ -61,8 +59,6 @@ Drücke den Reset Knopf und beobachte wie der Text "Hallo micro:bit" über den B
 
 
 ### Schritt 3 - Erweiterung des Programmes
-
-[makecode::hello world 2](https://makecode.microbit.org/_2zw1WK4gfHTD)
 
 Das aktuelle Programm zeigt den Text genau einmal an wenn das Programm gestartet wird, danach bleibt der Bildschirm dunkel. Wir wollen das Programm erweitern, so dass der Text immer wieder angezeigt wird.
 
@@ -113,4 +109,9 @@ Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 *   Ausprobieren des Programms im Simulator
 *   Herunterladen und starten des Programs auf dem micro:bit
 
+
+## Programmschritte
+
+*   [makecode::hello world 1](https://makecode.microbit.org/_dxuFzf6HUVPy)  
+*   [makecode::hello world 2](https://makecode.microbit.org/_2zw1WK4gfHTD)  
 
