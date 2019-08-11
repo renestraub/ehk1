@@ -25,6 +25,5 @@ Auf den folgenden Seiten finden sich die wichtigsten Informationen für Euch. Bi
 
 Du findest eine Übersicht aller Lektionen dieses Kurses auf der [folgenden Seite](lessons/index.md).
 
-Wenn du direkt zu einer Lektion springen willst kannst du die folgenden Links verwenden:
+Wenn du von hier direkt zu einer Lektion springen willst kannst du auch das Menü **Lektionen** verwenden.
 
-*   [Hello World](lessons/10_hello_world/lesson.md): Das erste Program, Einstieg in die Block Programmierung mit Makecode

@@ -112,7 +112,5 @@ Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 
 ## Programme
 
-*   [Schritt 1](#Schritt-1:-Das-Program-schreiben):
-[makecode::hello world 1](https://makecode.microbit.org/_dxuFzf6HUVPy)  
-*   [Schritt 3](#Schritt-3:-Erweiterung-des-Programmes):
-[makecode::hello world 2](https://makecode.microbit.org/_2zw1WK4gfHTD)  
+*   Schritt 1: [makecode::hello world 1](https://makecode.microbit.org/_dxuFzf6HUVPy)  
+*   Schritt 3: [makecode::hello world 2](https://makecode.microbit.org/_2zw1WK4gfHTD)  

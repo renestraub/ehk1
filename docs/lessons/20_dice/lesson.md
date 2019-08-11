@@ -137,23 +137,27 @@ So richtig Spass macht der Würfel aber natürlich in echt auf dem micro:bit.
 Mache dass dein Würfel eine zufällige Zeit rollt. 
 *   Ersetze die Anzahl Schleifen mit einer zufälligen Zahl, z.B. zwischen 1 und 10.
 
+
 ### Stromsparen
 
 Die Anzeige der Zahl braucht ziemlich viel Strom. Zeige das Resultat nur für fünf Sekunden an und schalte den Bildschirm danach aus.
-* **Grundlagen**, **pausiere**
-* **Grundlagen**, **... mehr**, **Bildschirmninhalt löschen**
+
+*   **Grundlagen**, **pausiere**
+*   **Grundlagen**, **... mehr**, **Bildschirmninhalt löschen**
+
 
 ### Zeige statt einer Zahl die Würfelaugen an (Fortgeschritten)
 
+Mit dem Block **zeige LEDs** kannst du richtige Würfelaugen anzeigen. Eine Vorlage findest du [hier](https://www.electronicsplanet.ch/catan/wuerfel/wuerfelaugen.htm).
 
-* Definiere eine Variable welche das Resultat des Würfels erhält.
-* Nutze mehrere *wenn** Blöcke um das Resultat zu vergleichen und eine Grafik anzuzeigen (Würfelaugen).
 
+*   Definiere eine Variable welche das Resultat des Würfels erhält (die Zufallszahl).
+*   Nutze mehrere **wenn** Blöcke aus dem Bereich **Logik** um die Zufallszahl zu vergleichen und eine Grafik anzuzeigen (Würfelaugen). Du benötigst sechs vergleiche.
 
 
 ## Was haben wir gelernt
 
-Nach dieser übung bist du schon fast ein Profi in der Bedienung des Makecode Editors.
+Nach dieser Übung bist du schon fast ein Profi in der Bedienung des Makecode Editors. Dazu hast du kompliziertere Blöcke benutzt und dein Program auf verschiedene Weise gestartet.
 
 *   Programme im Editor abändern.
 *   Blöcke im Editor verschieben.
@@ -164,15 +168,10 @@ Nach dieser übung bist du schon fast ein Profi in der Bedienung des Makecode Ed
 *   Bilder anzeigen.
 
 
-
 ## Programme
 
-*   [Schritt 1](#Schritt-1:-Eine-zufällige-Zahl-anzeigen): 
-[makecode::dice 1](https://makecode.microbit.org/_5UrAYVdUbMWA)
-*   [Schritt 2](#Schritt-2:-Die-Spannung-erhoehen):
-[makecode::dice 2](https://makecode.microbit.org/_TvD5c5fHfLpr)
-*   [Schritt 3](#Schritt-3:-Schütteln):
-[makecode::dice 3](https://makecode.microbit.org/_2fDL0URU29EP)
-*   [Würfelaugen](#Zeige-statt-einer-Zahl-die-Würfelaugen-an-(Fortgeschritten)):
-[makecode::dice 4](https://makecode.microbit.org/_0tWD4L5zecXq)
-  
+*   Schritt 1: [makecode::dice 1](https://makecode.microbit.org/_5UrAYVdUbMWA)
+*   Schritt 2: [makecode::dice 2](https://makecode.microbit.org/_TvD5c5fHfLpr)
+*   Schritt 3: [makecode::dice 3](https://makecode.microbit.org/_2fDL0URU29EP)
+*   Würfelaugen: [makecode::dice 4](https://makecode.microbit.org/_0tWD4L5zecXq)
+ 
