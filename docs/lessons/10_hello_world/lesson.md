@@ -16,7 +16,7 @@ Wenn alles klappt ändern wir das Program so ab dass es deinen Namen anzeigt.
 
 ## Programmierung
 
-### Schritt 1 - Das Program schreiben
+### Schritt 1: Das Program schreiben
 
 *   Oeffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
 *   Klicke **Neues Projekt**.
@@ -43,7 +43,7 @@ Wir wollen den Text "Hello micro:bit" (ein klassiche Computerprogramm zum Testen
 
 
 
-### Schritt 2 - Ausprobieren im Simulator
+### Schritt 2: Ausprobieren im Simulator
 
 Vielleicht hat du es bemerkt. Nachdem du das Program geschrieben hast, wurde es bereits im Simulator (linker Teil des Fensters) ausgeführt. Wir wollen aber nun etwas genauer schauen wie der Simulator benutzt wird.
 
@@ -58,7 +58,7 @@ Drücke den Reset Knopf und beobachte wie der Text "Hallo micro:bit" über den B
 
 
 
-### Schritt 3 - Erweiterung des Programmes
+### Schritt 3: Erweiterung des Programmes
 
 Das aktuelle Programm zeigt den Text genau einmal an wenn das Programm gestartet wird, danach bleibt der Bildschirm dunkel. Wir wollen das Programm erweitern, so dass der Text immer wieder angezeigt wird.
 
@@ -79,7 +79,7 @@ Wir wollen nach dem Text eine kleine Pause einfügen, bevor er von vorne beginnt
 
 
 
-### Schritt 4 - Download auf den micro:bit
+### Schritt 4: Download auf den micro:bit
 
 Bisher haben wir das Program nur auf dem Computer ausgeführt. Jetzt wollen wir schauen, ob es auch auf dem micro:bit funktioniert. Dazu müssen wir das Program auf den micro:bit kopieren/herunterladen. Auf English "Download" genannt.
 
@@ -97,9 +97,9 @@ Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 *   Wenn alles geklappt hat siehst du nun die Laufschrift auf dem micro:bit
 
 
-**Gratulation du hast dein erstes Programm geschrieben**
-
 ![](image4.png)
+
+**Gratulation du hast dein erstes Programm geschrieben**. Wie wäre es wenn du das Program so änderst, dass es deinen Namen schreibt?
 
 
 
@@ -110,8 +110,9 @@ Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 *   Herunterladen und starten des Programs auf dem micro:bit
 
 
-## Programmschritte
+## Programme
 
-*   [makecode::hello world 1](https://makecode.microbit.org/_dxuFzf6HUVPy)  
-*   [makecode::hello world 2](https://makecode.microbit.org/_2zw1WK4gfHTD)  
-
+*   [Schritt 1](#Schritt-1:-Das-Program-schreiben):
+[makecode::hello world 1](https://makecode.microbit.org/_dxuFzf6HUVPy)  
+*   [Schritt 3](#Schritt-3:-Erweiterung-des-Programmes):
+[makecode::hello world 2](https://makecode.microbit.org/_2zw1WK4gfHTD)  

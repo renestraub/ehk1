@@ -1,8 +1,5 @@
 # Elektronischer Wuerfel
 
-Linktest: [Back To Chapter](#programmierschritte)
-
-
 ## Einleitung
 
 Diese Lektion lernt uns einige neue Programmierblöcke mit welchen wir einen Spielwürfel programmieren. Wie ein Spielwürfel soll der micro:bit eine zufällige Zahl zwischen eins und sechs anzeigen wenn er geschüttelt wird.
@@ -19,7 +16,7 @@ Diese Lektion lernt uns einige neue Programmierblöcke mit welchen wir einen Spi
 
 ## Programmierung
 
-### Schritt 1 - Eine zufällige Zahl anzeigen
+### Schritt 1: Eine zufällige Zahl anzeigen
 
 Wir starten mit einem einfachen Programm das eine Zahl zwischen eins und sechs anzeigt, wenn die Taste **A** gedrückt wird. 
 
@@ -58,7 +55,7 @@ Dein Programm sollte nun so aussehen. Wenn nicht kannst du einfach nochmal probi
 Probiere das Programm im Simulator aus. Mit jedem Druck der Taste **A** erscheint nun eine zufällige Zahl zwischen eins und sechs.
 
 
-### Schritt 2 - Die Spannung erhöhen
+### Schritt 2: Die Spannung erhoehen
 
 Auch wenn unser Würfel eigentlich schon funktioniert ist er doch etwas langweilig. Wir wollen nun etwas mehr Spannung in unser Programm bringen. Statt die Zahl sofort anzuzeigen soll der Würfel für eine Zeit lang eine Animation anzeigen und erst dann die Zahl. So wird das ganze gleich viel aufregender.
 
@@ -92,7 +89,7 @@ Wenn dir die Animation mit den zwei Bildern nicht gefällt, ändere sie einfach 
 
 
 
-### Schritt 3 - Schütteln ...
+### Schritt 3: Schütteln
 
 Wie zu Beginn versprochen soll der Würfel starten, wenn er geschüttelt wird. Dieser Schritt zeigt dir eine Funktion des micro:bit die dein Computer nicht hat. Der micro:bit hat einen winzigen Sensor auf der Rückseite. Dieser Sensor kann messen kann ob er bewegt wird. Ebenso kann der Sensor herausfinden ob dein micro:bit herunterfällt oder wie er liegt (z.B. auf dem Kopf).
 
@@ -121,6 +118,7 @@ Bitte schüttelt jetzt nicht eure Notebooks. Erstens funktioniert das nicht, zwe
 
 ![](image8.png)
 
+
 Drückt einfach mit der Maus den runden Knopf und euer Programm startet. Habt ihr auch bemerkt dass sich das Bild des Simulators bewegt, wenn ihr mit der Maus darüber fahrt? Auf diese Weise könnt ihr den Simulator in eine Richtung kippen. Auch dies kann mit einem geeigneten Block abgefragt werden.
 
 So richtig Spass macht der Würfel aber natürlich in echt auf dem micro:bit. 
@@ -134,14 +132,22 @@ So richtig Spass macht der Würfel aber natürlich in echt auf dem micro:bit.
 
 ## Ideen für Dich
 
-*   Mache dass dein Würfel eine zufällige Zeit rollt. 
-    *   Ersetze die Anzahl Schleifen mit einer zufälligen Zahl, z.B. zwischen 1 und 10.
-*   Die Anzeige der Zahl braucht ziemlich viel Strom. Zeige das Resultat nur für fünf Sekunden an und schalte den Bildschirm danach aus.
-    * **Grundlagen**, **pausiere**
-    * **Grundlagen**, **... mehr**, **Bildschirmninhalt löschen**
-*   Fortgeschritten: Zeige statt einer Zahl die Würfelaugen an.
-    * Definiere eine Variable welche das Resultat des Würfels erhält.
-    * Nutze mehrere *wenn** Blöcke um das Resultat zu vergleichen und eine Grafik anzuzeigen (Würfelaugen).
+### Zufällige Zeit
+
+Mache dass dein Würfel eine zufällige Zeit rollt. 
+*   Ersetze die Anzahl Schleifen mit einer zufälligen Zahl, z.B. zwischen 1 und 10.
+
+### Stromsparen
+
+Die Anzeige der Zahl braucht ziemlich viel Strom. Zeige das Resultat nur für fünf Sekunden an und schalte den Bildschirm danach aus.
+* **Grundlagen**, **pausiere**
+* **Grundlagen**, **... mehr**, **Bildschirmninhalt löschen**
+
+### Zeige statt einer Zahl die Würfelaugen an (Fortgeschritten)
+
+
+* Definiere eine Variable welche das Resultat des Würfels erhält.
+* Nutze mehrere *wenn** Blöcke um das Resultat zu vergleichen und eine Grafik anzuzeigen (Würfelaugen).
 
 
 
@@ -159,10 +165,14 @@ Nach dieser übung bist du schon fast ein Profi in der Bedienung des Makecode Ed
 
 
 
-## Programmschritte
+## Programme
 
-*   [makecode::dice 1 ](https://makecode.microbit.org/_5UrAYVdUbMWA)
-*   [makecode::dice 2](https://makecode.microbit.org/_TvD5c5fHfLpr)
-*   [makecode::dice 3](https://makecode.microbit.org/_2fDL0URU29EP)
-*   [makecode::dice 4](https://makecode.microbit.org/_0tWD4L5zecXq)
-
+*   [Schritt 1](#Schritt-1:-Eine-zufällige-Zahl-anzeigen): 
+[makecode::dice 1](https://makecode.microbit.org/_5UrAYVdUbMWA)
+*   [Schritt 2](#Schritt-2:-Die-Spannung-erhoehen):
+[makecode::dice 2](https://makecode.microbit.org/_TvD5c5fHfLpr)
+*   [Schritt 3](#Schritt-3:-Schütteln):
+[makecode::dice 3](https://makecode.microbit.org/_2fDL0URU29EP)
+*   [Würfelaugen](#Zeige-statt-einer-Zahl-die-Würfelaugen-an-(Fortgeschritten)):
+[makecode::dice 4](https://makecode.microbit.org/_0tWD4L5zecXq)
+  
