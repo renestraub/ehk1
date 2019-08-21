@@ -3,6 +3,7 @@
 ## Block Programmierung
 
 1.  [Microsoft Makecode Website](https://makecode.microbit.org/)
+1.  [WebUSB Connection](https://makecode.microbit.org/device/usb/webusb)
 
 
 ## Python Programmierung
