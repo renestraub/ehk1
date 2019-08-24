@@ -8,6 +8,7 @@ nav:
   - Lektionen:
     - lessons/10_hello_world/lesson.md
     - lessons/20_dice/lesson.md
+    - lessons/30_level/lesson.md
   - links.md
 
 #theme: readthedocs
