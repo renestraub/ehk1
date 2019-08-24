@@ -2,7 +2,9 @@
 
 ## Einleitung
 
-xxx
+Mit etwas Mathematik kann man mit dem micro:bit die Gravitationskraft messen. Da sein Sensor drei Kräfte (einen für jede Raumrichtung) misst müssen diese miteinander verrechnet werden.
+
+Wie bei jeder Messung ist auch hier die Genauigkeit wichtig. In Schritt 2 zeigen wir, wie man dank einem Filter und Kalibrierung präziser messen kann.
 
 
 
@@ -77,7 +79,7 @@ Wir wollen dazu nochmal eine Variable verwenden
 *   Weise **g** den Wert der Berechnung zu indem du den Rechnungsblock in ein **ändere g auf 0** ziehst.
 *   Setze die Variable **g** in den **zeige Nummer** Block.
 
-Das fertige Program sollte wie folgt aussehen. Lade es herunter und probiere es aus. Da wir die Gravitation nun in alle drei Richtungen messen sollte die Zahl immer um **1000** sein, egal wie du den micro:bit hälst.
+Das fertige Program sollte wie folgt aussehen. Lade es herunter und probiere es aus. Da wir die Gravitation nun in alle drei Richtungen messen sollte die Zahl immer um **1000** sein, egal wie du den micro:bit hälst. Auf der Erde solltest du nun immer den Wert 1000 erhalten.
 
 ![](image9.png)
 
@@ -130,6 +132,8 @@ Wie du siehst kannst du eine Variable wie **g** auch später im Program wieder v
 *   Anzeigen wenn Taste A (kleinster Wert) oder B (grösster Wert) gedrückt wird.
 *   Neustarten wenn Taste A+B gleichzeitig gedrückt.
 
+![](image11.png)
+
 [Link](https://makecode.microbit.org/_EaLgh4CsTY6K)
 
 
@@ -139,8 +143,9 @@ Wie du siehst kannst du eine Variable wie **g** auch später im Program wieder v
 *   Dauernde Messung der Kräfte.
 *   Anzeige eines Smiley wenn schwerelos.
 
-[Link](https://makecode.microbit.org/_Y3Y98Vi2pKaX)
+![](image12.png)
 
+[Link](https://makecode.microbit.org/_Y3Y98Vi2pKaX)
 
 
 ## Was haben wir gelernt
@@ -152,4 +157,4 @@ Wie du siehst kannst du eine Variable wie **g** auch später im Program wieder v
 
 ## Programme
 
-*   Schritt 1: [makecode::level 2](https://makecode.microbit.org/_h8xEFRVbCD3W)
+*   Schritt 1: [makecode](https://makecode.microbit.org/_h8xEFRVbCD3W)
