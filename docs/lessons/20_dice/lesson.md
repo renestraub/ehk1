@@ -7,7 +7,7 @@ Diese Lektion lernt uns einige neue Programmierblöcke mit welchen wir einen Spi
 
 ## Verwendete (neue) Technologien
 
-*   Auf einen Tastendruck oder Schütteln reagieren (Bewegungssensor abfragen)
+*   Auf einen Tastendruck oder Schütteln reagieren
 *   Block für Wiederholungen (Schleifen)
 *   Anzeige von Bildern
 *   Zufallszahlen
@@ -97,10 +97,10 @@ Wie zu Beginn versprochen soll der Würfel starten, wenn er geschüttelt wird. D
 
 Für die Interessierten: Der Sensor kann Kräfte messen. Solange er nicht bewegt wird, _sieht_ er nur die Erdanziehungskraft, die auch uns alle am Boden hält. Diese Kraft zeigt nach unten zur Mitte der Erde. Wenn du den micro:bit umdrehst sieht der Sensor dieselbe Kraft nur in die andere Richtung. So weiss er wie er auf dem Tisch liegt.
 
-Wenn du den micro:bit schüttelst benötigtst du auch Kraft. Diese zusätzliche Kraft misst der micro:bit und kann sie als Schütteln erkennen. Eine weitere spannende Funktion ist dass der Sensor erkennen kann wenn er herunterfällt. In dem Fall misst er keine Beschleunigung (zumindest nicht bis er am Boden aufschlägt). Du kennst das Gefühl vielleicht von der Achterbahn wenn du plötzlich ganz leicht (schwerelos) wirst.
+Wenn du den micro:bit schüttelst benötigst du auch Kraft. Diese zusätzliche Kraft misst der micro:bit und kann sie als Schütteln erkennen. Eine weitere spannende Funktion ist dass der Sensor erkennen kann wenn er fällt. In dem Fall misst er keine Beschleunigung (zumindest nicht bis er am Boden aufschlägt). Du kennst das Gefühl vielleicht von der Achterbahn wenn du plötzlich ganz leicht (schwerelos) wirst.
 
 
-So genug Wissenschafft für den Moment. Wir ändern nun unser Programm ab, dass der Würfel startet wenn er geschüttelt wird.
+So genug Wissenschafft für den Moment. Wir ändern nun unser Programm ab, so dass der Würfel startet wenn er geschüttelt wird.
 
 *   Platziere aus **Eingabe**, den Block **wenn geschüttelt** an einem freien Ort im Editor.
 *   Wir wollen nun einen Teil des vorhandenen Programms in den neuen Block verschieben.
