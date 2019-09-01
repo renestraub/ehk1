@@ -17,21 +17,30 @@ Wie bei jeder Messung ist auch hier die Genauigkeit wichtig. In Schritt 2 zeigen
 
 ## Programmierung
 
-## Schritt 1: Drei Himmelsrichtungen und viel Mathematik
+## Einlietung: Drei Himmelsrichtungen und viel Mathematik
 
 Wir haben in Lektion 3 - Wasserwaage gesehen, dass der micro:bit die Gravitation misst und dass diese ungefähr 1000 ist.
 
-Der micro:bit *sieht* mit seinen Sensoren die Kraft aber nur genau in die Richtung in die er misst. Also z.B. in Richtung **Z**. Wenn die Kraft schräg anliegt, sieht er nur noch einen Teil davon. Da die Gravitation immer genau gerade nach unten zeigt, müsst ihr stattdessen euren micro:bit schräg halten um diesen Effekt zu sehen. Wenn ihr es ausprobiert werdet ihr sehen dass die Zahlen kleiner werden.  
+Der micro:bit *sieht* mit seinen Sensoren die Kraft aber nur genau in die Richtung in die er misst. Also z.B. in Richtung **Z**. Wenn die Kraft schräg anliegt, sieht er nur noch einen Teil davon. Da die Gravitation immer genau gerade nach unten zeigt, müsst ihr stattdessen euren micro:bit schräg halten um diesen Effekt zu sehen. Wenn ihr es ausprobiert werdet ihr sehen dass die Zahlen kleiner werden.
 
-Da die Gravitation der Erde aber nicht verschwindet, muss die Kraft ja trotzdem irgendwo sein. Das ist auch so, sie teilt sich nun einfach in verschiedene Richtungen auf (x, y und z). Wenn wir alle drei Richtungen des Sensors messen und zusammenzählen erhalten wir wieder die ganze Kraft. Das probieren wir nun aus und lernen dabei mit dem micro:bit zu rechnen.
+Da die Gravitation der Erde aber nicht verschwindet, muss die Kraft ja trotzdem irgendwo sein. Das ist auch so, sie teilt sich aus Sicht des micro:bit in verschiedene Richtungen auf (x, y und z genannt). Wenn wir jede Richtung mit dem Sensor des micro:bit messen und zusammenzählen erhalten wir wieder die ganze Kraft. Das probieren wir nun aus und lernen dabei mit dem micro:bit zu rechnen.
 
-Es wäre einfach wenn man die Kräfte aus x-, y- und z-Richtung einfach zusammenzählen könnte. Ganz so leicht ist es leider nicht. Die Mathematik will, dass wir das mit Wurzeln und Quadraten rechnen. Vielleicht habt ihr in der Schule schon mit Dreiecken gearbeitet und die Formel des Pythagoras gelernt. Das hier ist etwas ähnliches.
+Es wäre einfach wenn man die Kräfte aus x-, y- und z-Richtung einfach zusammenzählen könnte. Ganz so leicht ist es leider nicht. Die Mathematik will, dass wir das mit Wurzeln und Quadraten rechnen. Vielleicht habt ihr in der Schule schon mit Dreiecken gearbeitet und die Formel des Pythagoras gelernt. 
+
+![](image13.png)
+
+Die Formel sagt wie man die Länge von **c**, berechnen kann wenn man **a** und **b** kennt. Hier haben wir zwei Richtungen (a und b). **a** und **b** sind in diesem Beispiel die Kraft in **x** und **y** Richtung, **c** die ganze Kraft. Das nennet man Vektorrechnung (lernt ihr später in der Schule).
+
+Beim Versuch mit der Schwerkraft sind es sogar drei Richtungen, dadurch wird die Formel noch etwas komplizierter.
 
 ![](image3.png)
 
-Das sieht recht kompliziert aus und macht keinen Spass im Kopf zu rechnen. Zum Glück haben wie unseren micro:bit Computer. **To compute** heisst ja nicht umsonst berechnen und genau das machen wir jetzt.
+Diese Formel im Kopf zu rechnen macht nun wirklich keinen Spass. Zum Glück haben wie unseren micro:bit Computer. **To compute** heisst ja nicht umsonst **rechnen** und genau das machen wir jetzt.
 
-Als erstes wollen wir die Graviation in allen Richtungen messen und uns merken. Um sich etwas zu merken verwenden Computerprogramme **Variablen**. Stellt euch diese wie kleine Kistchen vor die einen Namen haben und im Kistchen etwas speichern können. Man kann die Variable setzen, d.h. etwas ins Kistchen legen. Man kann die Variable später lesen, resp. in das Kistchen schauen.
+
+## Schritt 1: Drei Himmelsrichtungen, viel Mathematik und Variablen
+
+Als erstes wollen wir die Kraft in allen Richtungen messen und uns merken. Um sich etwas zu merken verwenden Computerprogramme **Variablen**. Stellt euch diese wie kleine Kistchen vor die einen Namen haben und im Kistchen etwas speichern können. Man kann die Variable setzen, d.h. etwas ins Kistchen legen. Man kann die Variable später lesen, resp. in das Kistchen schauen.
 
 *   Wähle **Variablen**, **Erstelle eine Variable** und lege die Variable **x** an.
 *   Erstelle auf dieselbe Weise Variablen mit Namen **y** und **z**.
