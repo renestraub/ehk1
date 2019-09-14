@@ -88,8 +88,9 @@ Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 
 *   Gib dem Programm den Namen "Hello World" in dem Feld unten in der Mitte. Unter diesem Namen wirst du es später auch wieder finden.
 *   Wähle **Herunterladen** 
-    *   Es öffnet sich ein Fenster das fragt wohin gespeicher werden soll.
+    *   Es sollte sich ein Fenster öffnen, das fragt wohin gespeichert werden soll.
     *   Wähle den Microbit. Dies ist etwas schwierig beim ersten Mal. Wir helfen dir bei diesem Schritt.
+    *   **Sollte sich kein Fenster öffnen, müssen wir die Einstellung an deinem Browser ändern** [Link zu weiterer Information](download_settings.md).
 
 ![](image5.png)
 
