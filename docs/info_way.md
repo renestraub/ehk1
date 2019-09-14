@@ -21,7 +21,7 @@ Die Büros der NetModule sind vom Bahnhof Bern problemlos in 5 Minuten zu Fuss z
 *   Auf die andere Strassenseite der Laupenstrasse wechseln (3x Lichtsignal).
 *   Links halten und anschliessend rechts dem Hirschengraben entlang laufen.
 *   Bei der nächsten Strasse nach rechts in die Maulbeerstrasse gehen (beim Restaurant National).
-*   Nach etwa 100m steht ihr vor dem Eingang des Bürogebäudes #10.
+*   Nach etwa 100m steht ihr vor dem Eingang des Bürogebäudes 10.
 *   Das Areal ist am Wochenende geschlossen. Wir holen euch vor der Eingang ab.
 
 
@@ -42,12 +42,8 @@ Zum Ein-/Aussteigenlassen kann an der Maulbeerstrasse angehalten werden. Die Par
 
 
 
-
 ## Büros
 
-Der Eingang zu den Büros ist an der Maulbeerstrasse 10.
-NetModule befindet sich im 1. Obergeschoss.
-Innerhalb des Gebäudes ist der Weg ausgeschildert. 
+Das Areal ist am Wochenende geschlossen. Wir holen auch daher am Eingang Maulbeerstrasse 10 ab 9:45 ab.
 
-![Plan 1](way2.png)
-
+Wenn ihr zu früh seid, geniesst ihr am Besten noch einen Kaffee oder eine Schoggi in einem der Restaurants in der Nähe.
