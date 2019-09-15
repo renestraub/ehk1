@@ -38,7 +38,7 @@ Dein Program sollte jetzt so aussehen.
 
 Lade es auf den micro:bit herunter und schau was passiert wenn du Knopf A drückst. Achte darauf dass dein micro:bit mit der Anzeige nach oben flach auf dem Tisch liegt.
 
-Du solltest eine Zahl um -1000 sehen. Sie entspricht der Kraft welche am micro:bit in Z-Richtung zieht. Ihr kennt sie als Erdanziehnugskraft (oder Gravitation). Ihr Wert ist 9.81 m/s2, man sagt dazu auch 1 **g** (g wie Gravitation).
+Du solltest eine Zahl um -1000 sehen. Sie entspricht der Kraft welche am micro:bit in Z-Richtung zieht. Ihr kennt sie als Erdanziehungskraft (oder Gravitation). Ihr Wert ist 9.81 m/s2, man sagt dazu auch 1 **g** (g wie Gravitation).
 
 Der micro:bit misst diese Kraft und zeigt dafür den Wert **1000** für **1 g** an. D.h. er zeigt 1000 * **g** an. Stellt euch das wie Gramm and Kilogramm vor. 
 

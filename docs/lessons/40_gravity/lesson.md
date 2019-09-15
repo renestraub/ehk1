@@ -17,7 +17,7 @@ Wie bei jeder Messung ist auch hier die Genauigkeit wichtig. In Schritt 2 zeigen
 
 ## Programmierung
 
-## Einlietung: Drei Himmelsrichtungen und viel Mathematik
+## Einleitung: Drei Himmelsrichtungen und viel Mathematik
 
 Wir haben in Lektion 3 - Wasserwaage gesehen, dass der micro:bit die Gravitation misst und dass diese ungefähr 1000 ist.
 
@@ -29,7 +29,7 @@ Es wäre einfach wenn man die Kräfte aus x-, y- und z-Richtung einfach zusammen
 
 ![](image13.png)
 
-Die Formel sagt wie man die Länge von **c**, berechnen kann wenn man **a** und **b** kennt. Hier haben wir zwei Richtungen (a und b). **a** und **b** sind in diesem Beispiel die Kraft in **x** und **y** Richtung, **c** die ganze Kraft. Das nennet man Vektorrechnung (lernt ihr später in der Schule).
+Die Formel sagt wie man die Länge von **c**, berechnen kann wenn man **a** und **b** kennt. Hier haben wir zwei Richtungen (a und b). **a** und **b** sind in diesem Beispiel die Kraft in **x** und **y** Richtung, **c** die ganze Kraft. Das nennt man Vektorrechnung (lernt ihr später in der Schule).
 
 Beim Versuch mit der Schwerkraft sind es sogar drei Richtungen, dadurch wird die Formel noch etwas komplizierter.
 
@@ -46,7 +46,7 @@ Als erstes wollen wir die Kraft in allen Richtungen messen und uns merken. Um si
 *   Erstelle auf dieselbe Weise Variablen mit Namen **y** und **z**.
 *   Wir wollen nun die Kräfte jeder Richtung in den drei Variablen speichern.
 *   Wählt dazu aus **Variablen** den Block **ändere x auf 0**.
-*   Aendert die Variable auf **x** und das Zahlenfeld **0** auf **Beschleunigung (mg) x**.
+*   Ändert die Variable auf **x** und das Zahlenfeld **0** auf **Beschleunigung (mg) x**.
 *   Macht dasselbe für y und z. Ihr müsst jeweils die richtige Variable angeben und im Block **Beschleunigung (mg)** die Richtung.
 
 ![](image5.png)
@@ -59,7 +59,7 @@ Nachdem wir nun die Kräfte in den drei Variablen gespeichert haben geht die Rec
 
 *   Zieht aus **Variablen** das **x** in den Editor und legt dieses in einem der beiden **0** ab. Macht dasselbe für die zweite **0**.
 *   Klickt mit der rechten Maustaste auf den Block und **dupliziert** ihn.
-*   Aendert die Variablen **x** auf **y** ab.
+*   Ändert die Variablen **x** auf **y** ab.
 *   Macht dasselbe auch für **z**.
 
 Aus der komplizierten Formel von oben haben wir nun die Quadrate (x * x, y * y und z * z) berechnet. Als nächstes müssen wir die drei Zahlen addieren (zusammenzählen).

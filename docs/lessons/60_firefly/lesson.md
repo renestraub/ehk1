@@ -6,8 +6,6 @@ Eine wichtige Fähigkeit von Computern ist es, dass sie miteinander kommuniziere
 
 ## Verwendete Technologien
 
-
-Zum Beispiel
 * Makecode Online Editor oder Micro Python Online Editor
 * Block Programmiersprache oder Micro Python
 * Funkschnittstelle

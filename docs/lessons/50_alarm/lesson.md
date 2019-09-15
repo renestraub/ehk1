@@ -63,9 +63,9 @@ Wenn du dich fragst wo der Lichtsensor sitzt, wirst du überrascht sein. Der mic
 
 Ein wichtiger Punkt den du dir merken musst ist, dass du nicht die LEDs gleichzeitig mit dem Lichtsensor nutzen kannst. Wenn die LEDs eingeschaltet sind, misst der Sensor falsch (das Licht der LEDs).
 
-Wir probieren das nun aus. Das folgende Programm misst die Helligkeit wenn du Knopf A drückst. Den Wert merkt es sich in der Variable **light**, damit wir ihn später anzeigen können. Würden wir den Wert sofort anzeigen, wird die nächste Messunge gestört.
+Wir probieren das nun aus. Das folgende Programm misst die Helligkeit wenn du Knopf A drückst. Den Wert merkt es sich in der Variable **light**, damit wir ihn später anzeigen können. Würden wir den Wert sofort anzeigen, wird die nächste Messung gestört.
 
-Probiere das Program auf dem micro:bit aus. Welchen Wert erhälst du wenn der micro:bit auf dem Tisch liegt. Welchen Wert erhälst du wenn du den micro:bit zudeckst (oder in deine Tasche steckst).
+Probiere das Program auf dem micro:bit aus. Welchen Wert erhältst du wenn der micro:bit auf dem Tisch liegt. Welchen Wert erhältst du wenn du den micro:bit zudeckst (oder in deine Tasche steckst).
 
 
 ![](image3.png)

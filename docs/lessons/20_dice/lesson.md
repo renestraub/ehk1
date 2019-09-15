@@ -1,4 +1,4 @@
-# Elektronischer Wuerfel
+# Elektronischer Würfel
 
 ## Einleitung
 
@@ -20,14 +20,14 @@ Diese Lektion lernt uns einige neue Programmierblöcke mit welchen wir einen Spi
 
 Wir starten mit einem einfachen Programm das eine Zahl zwischen eins und sechs anzeigt, wenn die Taste **A** gedrückt wird. 
 
-*   Oeffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
+*   Öffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
 *   Klicke **Neues Projekt**.
 *   Wähle aus dem Menü **Eingabe** den Block **wenn Knopf gedrückt**.
 
 ![](image1.png)
 
 *   Platziere **Grundlagen** -> **zeige Nummer** in den **Knopf** Block.
-*   Aendere die Zahl **0** auf **6**.
+*   Ändere die Zahl **0** auf **6**.
 *   Die beiden Blöcke **beim Start** und **dauerhaft** benötigen wir nicht. Du kannst sie löschen.
     * Mit der rechten Maustaste anklicken und **Block löschen** wählen.
 
@@ -36,7 +36,7 @@ Wie du siehst macht unser Programm nun erst einmal nichts obwohl der Simulator l
 Obwohl du mit diesem Würfel immer gewinnst, war das nicht unser Ziel. Wir wollen ja eine zufällige Zahl zwischen eins und sechs anzeigen.
 
 *   Wähle aus **Mathematik** den Block **wähle eine zufällige Zahl..**
-*   Aendere die beiden Zahlen (0 und 10) so dass ein Spielwürfel mit den Werten 1 bis 6 entsteht.
+*   Ändere die beiden Zahlen (0 und 10) so dass ein Spielwürfel mit den Werten 1 bis 6 entsteht.
 
 ![](image2.png)
 
@@ -55,7 +55,7 @@ Dein Programm sollte nun so aussehen. Wenn nicht kannst du einfach nochmal probi
 Probiere das Programm im Simulator aus. Mit jedem Druck der Taste **A** erscheint nun eine zufällige Zahl zwischen eins und sechs.
 
 
-### Schritt 2: Die Spannung erhoehen
+### Schritt 2: Die Spannung erhöhen
 
 Auch wenn unser Würfel eigentlich schon funktioniert ist er doch etwas langweilig. Wir wollen nun etwas mehr Spannung in unser Programm bringen. Statt die Zahl sofort anzuzeigen soll der Würfel für eine Zeit lang eine Animation anzeigen und erst dann die Zahl. So wird das ganze gleich viel aufregender.
 
@@ -104,7 +104,7 @@ So genug Wissenschafft für den Moment. Wir ändern nun unser Programm ab, so da
 
 *   Platziere aus **Eingabe**, den Block **wenn geschüttelt** an einem freien Ort im Editor.
 *   Wir wollen nun einen Teil des vorhandenen Programms in den neuen Block verschieben.
-*   Greife dazu den Block **4-mal wiederholen** mit der Maus. Wie du siehst wird auch hier wieder der ganze Inhalt der Schleife und der Block **zeige Nummer** beweget. Der Editor ist schlau, er merkt was zusammen gehört.
+*   Greife dazu den Block **4-mal wiederholen** mit der Maus. Wie du siehst wird auch hier wieder der ganze Inhalt der Schleife und der Block **zeige Nummer** bewegt. Der Editor ist schlau, er merkt was zusammen gehört.
 *   Lege alles zusammen in den Block **wenn geschüttelt**. 
 *   Es kann sein dass du nun nicht mehr das ganze Programm auf im Editor siehst, weil es zu weit am Rand ist. 
 *   Drücke an einem freien Ort (grauer Hintergrund) die linke Maustaste und bewege den Editor bis du wieder alles siehst. 
@@ -112,7 +112,7 @@ So genug Wissenschafft für den Moment. Wir ändern nun unser Programm ab, so da
 
 ![](image7.png)
 
-Ein grosses Problem haben wir jetzt noch. Wie starten wir das Programm denn jetzt. Bisher konnten wir im Simulator einfach die Taste **A** drücken, aber jetzt soll der micro:bit ja erkannen dass er geschüttelt wird.
+Ein grosses Problem haben wir jetzt noch. Wie starten wir das Programm denn jetzt. Bisher konnten wir im Simulator einfach die Taste **A** drücken, aber jetzt soll der micro:bit ja erkennen dass er geschüttelt wird.
 
 Bitte schüttelt jetzt nicht eure Notebooks. Erstens funktioniert das nicht, zweitens geht er dabei eher kaputt. Es geht einfacher. Im Simulator ist neu ein kleiner Knopf **SHAKE** (Englisch für Schütteln) sichtbar. Dieser wird angezeigt weil unser Programm den **wenn geschüttelt** Block benutzt.
 
@@ -126,7 +126,7 @@ So richtig Spass macht der Würfel aber natürlich in echt auf dem micro:bit.
 *   Wähle **Herunterladen** um das Programm auf deinen micro:bit zu installieren/kopieren.
 *   Um richtig schütteln zu können stört das USB Kabel mit dem wir programmiert haben. Stecke es aus und schliesse stattdessen die Batterie an.
 *   Nimm den micro:bit (und die Batterie) in die Hand und schüttle ihn ein wenig. Funktioniert es?
-*   Experimentiere ein wenig herum. Wievie Kraft braucht es damit der Würfel neu startet? Funktioniert es auch wenn du den micro:bit nur ganz langsam bewegst?
+*   Experimentiere ein wenig herum. Wieviel Kraft braucht es damit der Würfel neu startet? Funktioniert es auch wenn du den micro:bit nur ganz langsam bewegst?
 
 
 
@@ -143,7 +143,7 @@ Mache dass dein Würfel eine zufällige Zeit rollt.
 Die Anzeige der Zahl braucht ziemlich viel Strom. Zeige das Resultat nur für fünf Sekunden an und schalte den Bildschirm danach aus.
 
 *   **Grundlagen**, **pausiere**
-*   **Grundlagen**, **... mehr**, **Bildschirmninhalt löschen**
+*   **Grundlagen**, **... mehr**, **Bildschirminhalt löschen**
 
 
 ### Zeige statt einer Zahl die Würfelaugen an (Fortgeschritten)
