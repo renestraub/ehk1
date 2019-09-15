@@ -9,6 +9,7 @@
 |[Wasserwaage](30_level/lesson.md) | Der micro:bit als Wasserwaage.|
 |[Gravitation](40_gravity/lesson.md) | Spannendes rund um die Gravitation.|
 |[Alarm](50_alarm/lesson.md) | Wir bauen einen Schulsackalaram.|
+|[Glühwürmchenschwarm](60_firefly/lesson.md) | Wir programmieren einen Glühwürmchenschwarm.|
 
 
 
