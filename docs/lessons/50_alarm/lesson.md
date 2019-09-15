@@ -24,9 +24,9 @@ Dazu verbindest du die Pins **GND** und **0** mit dem Anschluss des Kopfhörers.
 ![](banana-keyboard-3.png)
 ![](banana-keyboard-5.png)
 
-Leider kannst du auf diese Art keinen Lautsprecher ansteuern (oder höchstens einen ganz kleinen). Dieser benötigt mehr Strom als der micro:bit am Pin **0** zur Verfügung hat.
+Leider kannst du auf diese Art keinen Lautsprecher ansteuern (oder höchstens einen ganz kleinen). Dieser benötigt mehr Strom als der micro:bit am Pin **0** zur Verfügung stellen kann.
 
-Es gibt aber ein kleines Bauteil, den **Piezosummer** der ebenfalls Töne erzeugen kann und dazu nur ganz wenig Strom braucht. Er tönt zwar nicht so gut wie ein Lautsprecher für einen Alarm ist er aber genau richtig.
+Es gibt aber ein kleines Bauteil, den **Piezosummer** der ebenfalls Töne erzeugen kann und dazu nur ganz wenig Strom braucht. Er tönt zwar nicht so gut wie ein Lautsprecher, für einen Alarm ist er aber genau richtig.
 
 ![](piezo.png)
 
@@ -65,7 +65,7 @@ Ein wichtiger Punkt den du dir merken musst ist, dass du nicht die LEDs gleichze
 
 Wir probieren das nun aus. Das folgende Programm misst die Helligkeit wenn du Knopf A drückst. Den Wert merkt es sich in der Variable **light**, damit wir ihn später anzeigen können. Würden wir den Wert sofort anzeigen, wird die nächste Messung gestört.
 
-Probiere das Program auf dem micro:bit aus. Welchen Wert erhältst du wenn der micro:bit auf dem Tisch liegt. Welchen Wert erhältst du wenn du den micro:bit zudeckst (oder in deine Tasche steckst).
+Probiere das Program auf dem micro:bit aus. Welchen Wert erhältst du wenn der micro:bit auf dem Tisch liegt? Welchen Wert erhältst du wenn du den micro:bit zudeckst (oder in deine Tasche steckst)?
 
 
 ![](image3.png)
@@ -91,6 +91,7 @@ So können wir mehrere Dinge gleichzeitig tun.
 In diesen Programm sieht du noch etwas Neues. Bei den Blöcken **wenn Knopf** ist ein Kommentar geschrieben. Kommentare sind ein wichtiger Punkt beim Programmieren. Sie erlauben dem Programmierer zu notieren, was er im Kopf hatte als das Programm geschrieben wurde. So kann man auch später wieder herausfinden was das Programm eigentlich machen soll. Etwas das sonst schnell vergessen geht.
 
 Um in Makecode einen Kommentar zu schreiben gehst du wie folgt vor:
+
 *   Wähle einen Block, so dass er markiert ist (gelber Rahmen).
 *   Drücke die recht Maustaste um das Menü anzuzeigen.
 *   Wähle **Kommentar hinzufügen**.

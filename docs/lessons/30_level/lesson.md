@@ -24,7 +24,7 @@ Der micro:bit enthält einen 3D-Beschleunigungssensor. Dieser kann Kräfte aus d
 
 ![](image_axes.png)
 
-Wenn der micro:bit flach auf dem Tisch liegt sieht er nur eine Kraft sehen. Die Erdanziehung welche in Richtung "z" wirkt. In Richtung "x" oder "y" wirken keine Kräfte solange niemand den micro:bit hin- und herbewegt (genauer stösst). Das wollen wir ausprobieren.
+Wenn der micro:bit flach auf dem Tisch liegt, so kann er nur eine Kraft sehen. Die Erdanziehung welche in Richtung "z" wirkt. In Richtung "x" oder "y" wirken keine Kräfte solange niemand den micro:bit hin- und herbewegt (genauer gesagt stösst). Das wollen wir ausprobieren.
 
 *   Erstelle eine neues Programm.
 *   **Wenn Knopf A gedrückt**.
@@ -42,7 +42,7 @@ Du solltest eine Zahl um -1000 sehen. Sie entspricht der Kraft welche am micro:b
 
 Der micro:bit misst diese Kraft und zeigt dafür den Wert **1000** für **1 g** an. D.h. er zeigt 1000 * **g** an. Stellt euch das wie Gramm and Kilogramm vor. 
 
-Da der micro:bit nicht ganz genau messen kann schwankt die Zahl ein wenig. Es kann gut sein dass ihr einmal 970 oder 1020 und dann wieder 1005 angezeigt bekommt.
+Da der micro:bit nicht ganz genau messen kann schwankt die Zahl ein wenig. Es kann gut sein, dass ihr einmal 970 oder 1020 und dann wieder 1005 angezeigt bekommt.
 
 Wiederholt die Messung mehrere Male und schreibt euch den Wert auf. So bekommt ihr eine Idee wie genau der micro:bit messen kann. Im Durchschnitt sollte der Wert **1000** sein.
 
@@ -80,7 +80,7 @@ Wir betrachten aber für unser Programm nur die Kraft in X-Richtung die ja mögl
 Erstelle im Makecode Editor ein neues Programm.
 
 *   Da das Program diesmal dauernd laufen soll (nicht auf einen Knopfdruck) starte mit dem Block **dauerhaft**. Dieser liegt schon bereit.
-*   Wie im ersten Program wollen wir die **Beschleunigung (mg) x** messen. Hole den Block aus **Eingaben**
+*   Wie im ersten Program wollen wir die **Beschleunigung (mg) x** messen. Hole den Block aus **Eingaben**.
 
 Wir wollen die Kraft diesmal aber nicht gleich anzeigen, sondern uns erst einmal merken. Um sich etwas zu merken verwenden Computerprogramme **Variablen**. Stellt euch diese wie kleine Kistchen vor, die einen Namen haben und im Kistchen etwas speichern können. Man kann die Variable setzen, d.h. etwas ins Kistchen legen. Man kann die Variable später lesen, resp. in das Kistchen schauen.
 

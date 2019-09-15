@@ -81,7 +81,7 @@ Wir wollen nach dem Text eine kleine Pause einfügen, bevor er von vorne beginnt
 
 ### Schritt 4: Download auf den micro:bit
 
-Bisher haben wir das Program nur auf dem Computer ausgeführt. Jetzt wollen wir schauen, ob es auch auf dem micro:bit funktioniert. Dazu müssen wir das Program auf den micro:bit kopieren/herunterladen. Auf English "Download" genannt.
+Bisher haben wir das Program nur auf dem Computer ausgeführt. Jetzt wollen wir schauen, ob es auch auf dem micro:bit funktioniert. Dazu müssen wir das Program auf den micro:bit kopieren/herunterladen. Auf Englisch "Download" genannt.
 
 Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 

@@ -62,7 +62,7 @@ Nachdem wir nun die Kräfte in den drei Variablen gespeichert haben geht die Rec
 *   Ändert die Variablen **x** auf **y** ab.
 *   Macht dasselbe auch für **z**.
 
-Aus der komplizierten Formel von oben haben wir nun die Quadrate (x * x, y * y und z * z) berechnet. Als nächstes müssen wir die drei Zahlen addieren (zusammenzählen).
+Aus der komplizierten Formel von oben haben wir nun die Quadrate (x * x, y * y und z * z) berechnet. Als nächstes müssen wir die drei Zahlen addieren (zusammenzählen):
 
 *   Nehmt dazu aus **Mathematik** den Block mit **0 + 0**
 *   Zieht den Block **x * x** in das linke **0**, den Block **y * y** in das rechte **0**.
@@ -73,7 +73,7 @@ Aus der komplizierten Formel von oben haben wir nun die Quadrate (x * x, y * y u
 
 ![](image7.png)
 
-Das sieht jetzt schon richtig kompliziert aus. Aber keine Angst wir sind fast fertig. Wir müssen nur noch die Wurzel ziehen. Wenn ihr (noch) nicht wisst was das ist, kein Problem. Auf jeden Fall sind Wurzeln im Kopf nur sehr schwer zu berechnen. Zum Glück kann der micro:bit auch das.
+Das sieht jetzt schon richtig kompliziert aus. Aber keine Angst wir sind fast fertig. Wir müssen nur noch die Wurzel ziehen. Wenn ihr (noch) nicht wisst was das ist, kein Problem. Auf jeden Fall sind Wurzeln im Kopf nur sehr schwer zu berechnen. Zum Glück kann der micro:bit auch das:
 
 *   Zieht **Mathematik**, **Quadratwurzel 0** in den Editor.
 *   Ersetzt die **0** mit dem komplizierten Rechnungsblock von vorhin.
@@ -83,7 +83,8 @@ Das sieht jetzt schon richtig kompliziert aus. Aber keine Angst wir sind fast fe
 
 Wegen der Quadratwurzel hat unser Resultat nun leider auch noch ganz viele Kommastellen (z.B. 1030.3445785435). Diese wollen wir aber nicht anzeigen. Deswegen runden wir das Resultat auf eine ganze Zahl (1030). So kann man den Wert besser im Display ablesen.
 
-Wir wollen dazu nochmal eine Variable verwenden
+Wir wollen dazu nochmal eine Variable verwenden:
+
 *   **Variable**, **Erstelle eine Variable**, Name **g**
 *   Weise **g** den Wert der Berechnung zu indem du den Rechnungsblock in ein **ändere g auf 0** ziehst.
 *   Setze die Variable **g** in den **zeige Nummer** Block.
@@ -108,7 +109,7 @@ Ein einfacher Filter macht z.B. mehrere Messungen hintereinander und berechnet d
 *   Ändere das Program so ab dass es jeweils 8 Messungen macht.
 *   Damit du nicht denselben Code immer wieder schreiben musst verwende eine Schleife.
 
-Der zweite Effekt kommt daher dass der Sensor nicht exakt positioniert ist (z.B. etwas schräg auf dem Board verlötet).
+Der zweite Effekt kommt daher, dass der Sensor nicht exakt positioniert ist (z.B. etwas schräg auf dem Board verlötet).
 
 Dies findet man mit einer sogenannten **Kalibrierung** heraus. Dabei wird der micro:bit auf eine exakt waagerechte Fläche gestellt und geschaut welchen Wert er misst. Dies kann z.B. +23 sein, obwohl wir eigentlich 0 erwarten. Diese Zahl wird dann bei allen Messungen  abgezogen, was ein genaueres Resultat liefert.
 
