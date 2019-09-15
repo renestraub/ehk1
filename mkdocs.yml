@@ -10,6 +10,7 @@ nav:
     - lessons/20_dice/lesson.md
     - lessons/30_level/lesson.md
     - lessons/40_gravity/lesson.md
+    - lessons/50_alarm/lesson.md
   - links.md
 
 #theme: readthedocs

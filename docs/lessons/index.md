@@ -8,6 +8,7 @@
 |[Elektronischer Würfel](20_dice/lesson.md) | Wir bauen uns mit dem micro:bit einen Spielwürfel.|
 |[Wasserwaage](30_level/lesson.md) | Der micro:bit als Wasserwaage.|
 |[Gravitation](40_gravity/lesson.md) | Spannendes rund um die Gravitation.|
+|[Alarm](50_alarm/lesson.md) | Wir bauen einen Schulsackalaram.|
 
 
 
