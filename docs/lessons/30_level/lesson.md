@@ -20,17 +20,17 @@ Der micro:bit soll messen ob er genau waagerecht liegt und das auf dem Bildschir
 
 ### Schritt 1: Der Beschleunigungssensor
 
-Der micro:bit enthält einen 3D-Beschleunigungssensor. Dieser kann Kräfte aus drei verschiedenen Richtungen messen. In der Mathematik nutzt die Namen x, y und z für die Richtungen im Raum.
+Der micro:bit enthält einen 3D-Beschleunigungssensor. Dieser kann Kräfte für drei verschiedenen Achsen messen. In der Mathematik nutzt die Namen x, y und z für die Achsen im Raum.
 
 ![](image_axes.png)
 
-Wenn der micro:bit flach auf dem Tisch liegt, so kann er nur eine Kraft sehen. Die Erdanziehung welche in Richtung "z" wirkt. In Richtung "x" oder "y" wirken keine Kräfte solange niemand den micro:bit hin- und herbewegt (genauer gesagt stösst). Das wollen wir ausprobieren.
+Wenn der micro:bit flach auf dem Tisch liegt, so kann er nur eine Kraft sehen. Die Erdanziehung welche in Richtung "Z-Achse" wirkt. In Richtung "X-" oder "Y-Achse" wirken keine Kräfte, solange niemand den micro:bit hin- und herbewegt (genauer gesagt stösst). Das wollen wir ausprobieren.
 
 *   Erstelle eine neues Programm.
 *   **Wenn Knopf A gedrückt**.
 *   **zeige Nummer**.
 *   Platziere aus **Eingaben** den Block **Beschleunigung** in das **zeige Nummer** Feld.
-*   Wähle bei **Beschleunigung** die Richtung **z** aus.
+*   Wähle bei **Beschleunigung** die Achse **z** aus.
 
 Dein Program sollte jetzt so aussehen. 
 
@@ -38,7 +38,7 @@ Dein Program sollte jetzt so aussehen.
 
 Lade es auf den micro:bit herunter und schau was passiert wenn du Knopf A drückst. Achte darauf dass dein micro:bit mit der Anzeige nach oben flach auf dem Tisch liegt.
 
-Du solltest eine Zahl um -1000 sehen. Sie entspricht der Kraft welche am micro:bit in Z-Richtung zieht. Ihr kennt sie als Erdanziehungskraft (oder Gravitation). Ihr Wert ist 9.81 m/s2, man sagt dazu auch 1 **g** (g wie Gravitation).
+Du solltest eine Zahl um -1000 sehen. Sie entspricht der Kraft welche am micro:bit in Richtung Z-Achse sieht. Ihr kennt sie als Erdanziehungskraft (oder Gravitation). Ihr Wert ist 9.81 m/s2, man sagt dazu auch 1 **g** (g wie Gravitation).
 
 Der micro:bit misst diese Kraft und zeigt dafür den Wert **1000** für **1 g** an. D.h. er zeigt 1000 * **g** an. Stellt euch das wie Gramm and Kilogramm vor. 
 
@@ -52,11 +52,11 @@ Wiederholt die Messung mehrere Male und schreibt euch den Wert auf. So bekommt i
 Wie du im Bild oben sehen kannst, zeigt für den micro:bit die Z-Achse nach oben. Da die Gravitation aber nach unten zieht wirkt sie genau entgegen der Z-Achse. Der micro:bit sieht sie also in die *entgegengesetzte* Richtung. Er zeigt sie daher als negative Zahl an. Wenn du den micro:bit auf den Kopf stellst wird die Zahl positiv. Allerdings ist sie dann nur schwer abzulesen.
 
 
-### Und was ist mit den anderen Richtungen 
+### Und was ist mit den anderen Achsen 
 
-Wenn du das Programm änderst, so dass die Beschleunigung der **x** oder **y** Richtung angezeigt wird, siehst du nur eine sehr kleine Kraft. Dies liegt daran, dass der micro:bit ruhig auf dem Tisch liegt, und keine Kräfte wirken (sonst würde er sich bewegen).
+Wenn du das Programm änderst, so dass die Beschleunigung der **x** oder **y** Achse angezeigt wird, siehst du nur eine sehr kleine Kraft. Dies liegt daran, dass der micro:bit ruhig auf dem Tisch liegt, und keine Kräfte wirken (sonst würde er sich bewegen).
 
-Wenn du aber den micro:bit auf die lange Seite stellst erfährt sein Y-Sensor die Gravitationskraft. Du kannst diese messen wenn du im Block **Beschleunigung** die Richtung **z** durch **y** ersetzt.
+Wenn du aber den micro:bit auf die lange Seite stellst erfährt sein Y-Sensor die Gravitationskraft. Du kannst diese messen wenn du im Block **Beschleunigung** die Achse **z** durch **y** ersetzt.
 
 
 
@@ -67,14 +67,14 @@ Wir nutzen nun das Gelernte um eine Wasserwaage zu programmieren. Für die Wasse
 
 ![](image14.png)
 
-Um zu prüfen ob der Gegenstand, respektive der micro:bit, genau waagerecht liegt können wir die Kraft in Y-Richtung oder X-Richtung auswerten (oder sogar beide).
+Um zu prüfen ob der Gegenstand, respektive der micro:bit, genau waagerecht liegt können wir die Kraft der Y-Achse oder X-Achse auswerten (oder sogar beide).
 
-Wenn der micro:bit exakt waagerecht liegt sollte in X-Richtung keine oder nur eine sehr geringe Kraft messbar sein. In Y-Richtung hingegen die ganze Erdbeschleunigung. Liegt er hingegen schräg, nimmt die Kraft in X-Richtung zu und in Y-Richtung ab.
+Wenn der micro:bit exakt waagerecht liegt sollte in Richtung X-Achse keine oder nur eine sehr geringe Kraft messbar sein. In Richtung Y-Achse hingegen die ganze Erdbeschleunigung. Liegt er hingegen schräg, nimmt die Kraft der X-Achse zu und diejeniger der Y-Achse ab.
 Mit etwas Mathematik (Arkustangens) kann man aus den beiden Kräften den Winkel ausrechnen. 
 
 ![](image15.png) ![](image16.png)
 
-Wir betrachten aber für unser Programm nur die Kraft in X-Richtung die ja möglichst 0 sein soll. Ist der Wert kleiner oder grösser als 0 wissen wir dass der micro:bit schräg liegt.
+Wir betrachten aber für unser Programm nur die Kraft der X-Achse die ja möglichst 0 sein soll. Ist der Wert kleiner oder grösser als 0 wissen wir dass der micro:bit schräg liegt.
 
 
 Erstelle im Makecode Editor ein neues Programm.
