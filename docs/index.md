@@ -8,7 +8,7 @@ Kaum ein Gerät kommt heute ohne eine elektronische Steuerung aus. Meistens sind
 
 In diesem Kurs wollen wir lernen wie ein solcher Computer programmiert werden kann. Dazu verwenden wir einen BBC micro:bit Computer den jeder Teilnehmer anschliessend nach Hause mitnehmen kann. Die Programme entwickeln wir grafisch am Computer (Microsoft Makecode). Vorkenntnisse sind dazu keine notwendig.
 
-Nach einer gemeinsamen Einführung in die Programmierung kann jeder Teilnehmer selber ein Programm schreiben. Zur Auswahl stehen unter anderem Schulsackalarm, Papierklavier oder Velobremslicht.
+Nach einer gemeinsamen Einführung in die Programmierung kann jeder Teilnehmer selber eigene Programme schreiben.
 
 
 
