@@ -8,6 +8,7 @@
 
 ## Python Programmierung
 
+1.   [BBC micro:bit MicroPython Editor](https://python-editor-2-0-0-beta-4.microbit.org/#)
 1.   [BBC micro:bit MicroPython Dokumentation](https://microbit-micropython.readthedocs.io/en/latest/index.html)
 1.   [Grok Learning Python Kurs (Englisch)](https://groklearning.com/course/microbit-crash-course/)
 

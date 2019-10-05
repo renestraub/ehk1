@@ -17,5 +17,4 @@
 
 |Name|Beschreibung|
 |-|-|
-|Text|Text|
-
+|[Wasserwaage](32_level_python/lesson.md)| Die Wasserwaage in Python prgorammiert. |

@@ -65,6 +65,8 @@ while True:
 
 Das Python Programm misst den Winkel den der micro:bit zur Erdachse hat. Wenn er 0 ist (exakt gerade) zeigt er ein Pixel in der Mitte des Bildschirms an. Wenn der micro:bit geneigt ist wandert das Pixel nach links oder rechts. Das Pixel entspricht damit der Luftblase einer echten Wasserwaage.
 
+![](image16.png)
+
 Da das Program nun schon recht kompliziert ist, besprechen wir es zusammen. Die Hauptpunkte sind:
 1.  Die Beschleunigung wird in zwei Achsen gemessen und daraus mit der Tangens Funktion der Winkel berechnet (Dreiecksrechnung, Trigonometrie).
 1.  Der Winkel wird von der Einheit Radian welche Computer und Mathematiker nutzen (Kreisumfang = 2*Pi) in Grad (Kreisumfang = 360°) umgerechnet.
