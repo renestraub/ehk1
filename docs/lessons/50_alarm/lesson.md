@@ -12,7 +12,6 @@ Niemand soll einfach so in deinem Schulsack herumkramen oder sogar daraus etwas 
 *   Piezosummer
 
 
-
 ## Programmierung
 
 ### Schritt 1: Musik mit dem micro:bit
@@ -26,7 +25,7 @@ Dazu verbindest du die Pins **GND** und **0** mit dem Anschluss des Kopfhörers.
 
 Leider kannst du auf diese Art keinen Lautsprecher ansteuern (oder höchstens einen ganz kleinen). Dieser benötigt mehr Strom als der micro:bit am Pin **0** zur Verfügung stellen kann.
 
-Es gibt aber ein kleines Bauteil, den **Piezosummer** der ebenfalls Töne erzeugen kann und dazu nur ganz wenig Strom braucht. Er tönt zwar nicht so gut wie ein Lautsprecher, für einen Alarm ist er aber genau richtig.
+Es gibt aber ein Bauteil, den **Piezosummer** der ebenfalls Töne erzeugen kann und dazu nur ganz wenig Strom braucht. Er tönt zwar nicht so gut wie ein Lautsprecher, für einen Alarm ist er aber genau richtig.
 
 ![](piezo.png)
 
@@ -34,10 +33,7 @@ Es gibt aber ein kleines Bauteil, den **Piezosummer** der ebenfalls Töne erzeug
 *   Schliesst den Piezosummer mit den Krokodilklemmen wie unten gezeigt an den micro:bit an.
 *   Prüft nochmal sorgfältig ob die Verbindung ok ist. Schliesst dann den micro:bit wieder an den PC an.
 
-
-<Kommentar>
-<Foto Anschluss Piezo>
-
+![](piezo-buzzer_orig.png)
 
 
 
