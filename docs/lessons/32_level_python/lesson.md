@@ -29,7 +29,7 @@ Es gibt verschiedene Möglichkeiten den micro:bit mit MicroPython zu programmier
 *   Es öffnet sich ein Fenster in wir den Python Code unseres Programms eingeben können.
 *   Auch hier wollen wir mit einem einfachen **Hello World** Programm starten. Gib das folgende Program ein.
 
-```
+```python
 from microbit import *
 
 display.scroll('Hello micro:bit')
@@ -74,7 +74,7 @@ Da das Program nun schon recht kompliziert ist, besprechen wir es zusammen. Die 
 1.  Aus dem Winkel wird die Position des Pixels (0 bis 4) bestimmt. Der ganze Bildschirm wird gelöscht und ein Pixel an der berechneten Position eingeschaltet.
 1.  Nach einer kurzen Pause beginnt die Schleife von neuem.
 
-```
+```python
 from microbit import *
 import time
 import math
@@ -112,7 +112,7 @@ Wir erweitern daher unser Programm um eine Kalibrierfunktion. Wenn die Taste **A
 1.  Wenn Taste **A** gedrückt ist, wird der gemessene Wert nicht angezeigt, sondern als Fehlerwert gemerkt.
 1.  Vor der Anzeige eines Messwerts wird immer der Fehlerwert vom gemessenen Wert abgezogen.
 
-```
+```python
 from microbit import *
 import time
 import math
