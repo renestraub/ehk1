@@ -1,8 +1,8 @@
-# Funklichtschalter
+# Funklichtschalter in Python
 
 ## Einleitung
 
-Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr die passende Einleitung unter in der unter [Funklichtschalter](../60_lightswitch/lesson).
+Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr die passende Einleitung unter in der unter [Funklichtschalter](../../60_lightswitch/lesson).
 
 
 ## Verwendete Technologien
