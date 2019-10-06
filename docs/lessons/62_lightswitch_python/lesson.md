@@ -2,7 +2,7 @@
 
 ## Einleitung
 
-Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr die passende Einleitung unter in der unter
+Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr die passende Einleitung unter in der unter [Funklichtschalter](../60_lightswitch/lesson).
 
 
 ## Verwendete Technologien
@@ -28,6 +28,24 @@ Damit unser micro:bit dasselbe Protokoll spricht wie mit der Makecode-Umgebung b
 from microbit import *
 import make_radio
 ```
+
+Damit das funktioniert, müssen wir nun der Entwicklungsumgebung noch die Datei ```make_radio.py``` zur Verfügung stellen.
+
+Als erstes müssen wir die Datei runterladen: [Modul MakeRadio](./make_radio.py)
+
+![](load_save.png)
+
+Danach öffnen wir mit dem Knopf **Load/Save** das folgende Menü.
+
+![](project_files0.png)
+
+Nach dem Klick auf **Show Files** können wir nun die Datei ```make_radio.py``` via **Add file** hinzufügen:
+
+![](project_files1.png)
+
+Danach sollte es so aussehen:
+
+![](project_files2.png)
 
 Zu Beginn initialisieren und starten wir die Funkschnittstelle. Stellt dabei die ```group``` auf die eurer Gruppe zugeteilte Ziffer. Danach schalten wir die Funkschnittstelle aus und wieder ein.
 
@@ -106,3 +124,7 @@ sleep(100)
 *   Nutzen der Funkschnittstelle
 *   Erstellen von einfachen Funktionen
 
+## Programme
+
+*   [Modul MakeRadio](./make_radio.py)
+*   [Funklichtschalter](./funklichtschalter.py)

@@ -9,10 +9,12 @@ nav:
     - lessons/10_hello_world/lesson.md
     - lessons/20_dice/lesson.md
     - lessons/30_level/lesson.md
+    - lessons/32_level_python/lesson.md
     - lessons/40_gravity/lesson.md
     - lessons/50_alarm/lesson.md
-    - lessons/32_level_python/lesson.md
-    - lessons/60_firefly/lesson.md
+    - lessons/60_lightswitch/lesson.md
+    - lessons/62_lightswitch_python/lesson.md        
+    - lessons/70_firefly/lesson.md
   - links.md
 
 #theme: readthedocs
