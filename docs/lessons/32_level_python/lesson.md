@@ -15,7 +15,7 @@ Alle Informationen zu Python findest du auf der offiziellen Homepage https://www
 ## Verwendete (neue) Technologien
 
 *   Python Programmiersprache
-*   Python Online Editor (Voraussetzung: English)
+*   Python Online Editor (Voraussetzung: Englisch)
 
 
 ## Programmierung
@@ -85,11 +85,11 @@ In einer früheren Lektion haben wir bereits eine Wasserwaage programmiert. Wir 
 
 Das Programm soll den Winkel den der micro:bit zur Erdachse hat messen. Wenn er 0° ist (exakt gerade), soll er einen Punkt (ein Pixel) in der Mitte des Bildschirms anzeigen. Wenn der micro:bit geneigt ist, soll der Punkt nach links oder rechts wandern. Der Punkt entspricht damit der Luftblase einer echten Wasserwaage.
 
-Die Hauptaufgabe ist es den Winkel zu berechnen. Dazu benötigen wir die Beschleunigskräfte in X- und Y-Achse und eine Funktion aus der Trigonometrie. Sie heisst Arcustangens und berechnet aus X und Y den Winkel.
+Die Hauptaufgabe ist es den Winkel zu berechnen. Dazu benötigen wir die Beschleunigungskräfte in X- und Y-Achse und eine Funktion aus der Trigonometrie. Sie heisst Arcustangens und berechnet aus X und Y den Winkel.
 
 ![](image16.png)
 
-Während es in Makecode eher umständlich ist solche Berechnungen anzustellen, geht es in Python recht einfach. Vom `accelerometer` Modul fragen wir die Beschleuningswerte der zwei Achsen ab und merken sie uns in den Variablen x und y. Mit der Funktion `atan2` aus dem `math` Modul berechnen wir den Winkel. 
+Während es in Makecode eher umständlich ist solche Berechnungen anzustellen, geht es in Python recht einfach. Vom `accelerometer` Modul fragen wir die Beschleunigungswerte der zwei Achsen ab und merken sie uns in den Variablen x und y. Mit der Funktion `atan2` aus dem `math` Modul berechnen wir den Winkel. 
 
 In der Technik hat ein Kreis per Definition nicht 360° sondern den Wert 2*Pi. Diese Einheit heisst Radian. Du hast vielleicht schon die entsprechenden Tasten auf deinem Taschenrechner gesehen.
 Um das Program für uns einfach zu machen, rechnen wir den Radian Wert in Grad um.
@@ -158,7 +158,7 @@ while True:
 
 ### Schritt 2: Wasserwaage mit Kalibrierung
 
-Ziemlich sicher ist der Punkt nicht in der Mitte des Bildschirms, auch wenn dein micro:bit exakt gerade liegt. Das liegt daran, dass der Sensor nicht exakt kalibriert ist. Anstelle des Winkels 0 wird eine leicht kleinere odere grössere Zahl gemessen (z.B. -1.5 statt 0.0).
+Ziemlich sicher ist der Punkt nicht in der Mitte des Bildschirms, auch wenn dein micro:bit exakt gerade liegt. Das liegt daran, dass der Sensor nicht exakt kalibriert ist. Anstelle des Winkels 0 wird eine leicht kleinere oder grössere Zahl gemessen (z.B. -1.5 statt 0.0).
 
 Wir erweitern daher unser Programm um eine Kalibrierfunktion. Wenn die Taste **A** gedrückt ist, soll sich das Programm den aktuellen Messwert merken. Dieser Fehlerwert soll dann bei allen folgenden Messungen abgezogen werden, so dass der Fehler der Messung verschwindet.
 
@@ -166,7 +166,7 @@ Wir erweitern daher unser Programm um eine Kalibrierfunktion. Wenn die Taste **A
 1.  Wenn Taste **A** gedrückt ist, wird der gemessene Wert nicht angezeigt, sondern als Fehlerwert gemerkt.
 1.  Vor der Anzeige eines Messwerts wird immer der Fehlerwert vom gemessenen Wert abgezogen.
 
-Erweitert euer Programm bis so es aussieht wie unten gezeigt. Wenn ihr nun den micro:bit genau gerade auf dem Tisch haltet könnt ihr die Taste **A** drücken. Wenn ihr die Taste wieder loslasst hat der micro:bit gelernt um wieviel er falsch gemessen hat und er korrigier das. Der Punkt sollte nun in der Mitte sein.
+Erweitert euer Programm bis so es aussieht wie unten gezeigt. Wenn ihr nun den micro:bit genau gerade auf dem Tisch haltet könnt ihr die Taste **A** drücken. Wenn ihr die Taste wieder loslasst hat der micro:bit gelernt um wieviel er falsch gemessen hat und er korrigiert das. Der Punkt sollte nun in der Mitte sein.
 
 ```python
 from microbit import *

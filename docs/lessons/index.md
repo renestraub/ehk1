@@ -9,7 +9,8 @@
 |[Wasserwaage](30_level/lesson.md) | Der micro:bit als Wasserwaage.|
 |[Gravitation](40_gravity/lesson.md) | Spannendes rund um die Gravitation.|
 |[Alarm](50_alarm/lesson.md) | Wir bauen einen Schulsackalaram.|
-|[Glühwürmchenschwarm](60_firefly/lesson.md) | Wir programmieren einen Glühwürmchenschwarm.|
+|[Funklichtschalter](60_lightswitch/lesson.md) | Wir programmieren einen Funklichtschalter.|
+|[Glühwürmchenschwarm](70_firefly/lesson.md) | Wir programmieren einen Glühwürmchenschwarm.|
 
 
 
@@ -17,4 +18,5 @@
 
 |Name|Beschreibung|
 |-|-|
-|[Wasserwaage](32_level_python/lesson.md)| Die Wasserwaage in Python prgorammiert. |
+|[Wasserwaage](32_level_python/lesson.md)| Die Wasserwaage in Python programmiert. |
+|[Funklichtschalter](62_lightswitch_python/lesson.md) | Der Funklichtschalter in Python. |

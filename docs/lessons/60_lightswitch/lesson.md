@@ -1,4 +1,4 @@
-# Glühwürmchenschwarm
+# Funklichtschalter
 
 ## Einleitung
 
@@ -21,7 +21,7 @@ Heute können wir uns die ein Leben ohne drahtlose Kommunikation fast nicht mehr
 
 Der Prozessor des micro:bit besitzt eine eingebaute Funkschnittstelle, welche im Frequenzbereich 2.4 GHz (sprich Gigahertz) arbeitet. Das heisst, dass die Radiowellen, welche zur Übertragung verwendet werden 2'400'000'000 mal pro Sekunde hin- und herschwingen.
 
-Die Daten werden per Frequenzmodulation übertragen. Wenn wir beispielsweise den Buchstaben **A** übertragen wollen, so ist dies im micro:bit als 01000001 gespeichert. Senden wir es nun über die Funkschnittstelle, so wird für eine **0** die Frequenz der Radiowellen ganz wenig reduziert und für eine **1** die Frequenz ganz wenig erhöht. 
+Die Daten werden per Frequenzmodulation übertragen. Wenn wir beispielsweise den Buchstaben **A** übertragen wollen, so ist dies im micro:bit als 01000001 gespeichert. Senden wir es nun über die Funkschnittstelle, so wird für eine **0** die Frequenz der Radiowellen ein wenig reduziert und für eine **1** die Frequenz ein wenig erhöht. Der Empfänger sieht diese Frequenzänderung und kann aus diesem wieder die digitalen Daten lesen. 
 
 Der micro:bit kennt zwei verschiedene Funkprotokolle:
 
@@ -34,8 +34,8 @@ Doch was ist ein Protokoll eigentlich? Ein Protokoll gibt vor, wie Nachrichten v
 
 ## Verwendete Technologien
 
-* Makecode Online Editor oder Micro Python Online Editor
-* Block Programmiersprache oder Micro Python
+* Makecode Online Editor
+* Block Programmiersprache
 * Funkschnittstelle
 
 
@@ -46,8 +46,6 @@ In dieser Übung programmieren wir einen einfachen Funklichtschalter. Die LED-An
 Mit dem Drücken des Schalters soll die Lampe eingeschaltet werden und eingeschaltet bleiben, ein erneuter Tastendruck schaltet die Lampe wieder ab.
 
 Diese Übung führen wir in Zweiergruppen durch. Jede Gruppe wird von uns eine Gruppennummer erhalten. Dadurch stellen wir sicher, dass nur eure zwei micro:bits sich verstehen können und ihr so nicht die Tests der anderen Gruppe beeinflusst.
-
-### Schritt 1a Blockprogrammierung - [makecode::Funklichtschalter](https://makecode.microbit.org/_g6a0a4Y0sMuX)
 
 Die Gruppe kann man mit folgendem Block aus dem Menu **Funk** eingestellt werden, welcher beim Start ausgeführt werden soll:
 
@@ -80,91 +78,12 @@ Nun fügen wir den Aufruf der Funktion in die beiden Lücken ein.
 
 Das Programm könnt ihr nun erst mit dem Simulator testen und dann, wenn alles funktioniert, auf eure micro:bit herunterladen.
 
-### Schritt 1b - Mit Python
-
-Wir können den micro:bit auch mit Python programmieren. Dazu schreiben wir das Programm in Textform und nicht mit graphischen Blöcken.
-
-Damit unser micro:bit dasselbe Protokoll spricht wie mit der Makecode-Umgebung brauchen wir eine Bibliothek, welche ihm diese Fähigkeit beibringt. Zudem brauchen wir auch noch eine Bibliothek, welche die Grundfunktionen des micro:bit wie Taster und Anzeige  beinhaltet.
-
-```python
-from microbit import *
-import make_radio
-```
-
-Zu Beginn initialisieren und starten wir die Funkschnittstelle. Stellt dabei die ```group``` auf die eurer Gruppe zugeteilte Ziffer. Danach schalten wir die Funkschnittstelle aus und wieder ein.
-
-```python
-radio = make_radio.MakeRadio(group=1)
-radio.off()
-radio.on()
-```
-
-Da wir unser Licht auf verschiedene Weise ein- und ausschalten wollen, speichern wir den Zustand des der Lampe in der Variable ```licht```, welche wir auf ```False``` initialisieren, damit die Lampe beim Aufstarten aus ist. Diese Variable ist eine sogenannte boolsche Variable, das heisst sie kann nur zwei Zustände einnehmen: ```False``` und ```True``` was auf deutsch soviel heisst wie Falsch respektive Wahr.
-
-```python
-licht = False
-```
-
-Zudem benötigen wir eine Bild, dass wir darstellen können, welches die ganze LED-Anzeige einschalten. Das Bild nennen wir ```Lampe``` und setzen jede der fünf LEDs in jeder der fünf Zeilen auf 9, das heisst volle Helligkeit:
-
-```python
-lampe = Image("99999:"
-              "99999:"
-              "99999:"
-              "99999:"
-              "99999")
-```
-
-Nun benötigen wir einen Abschnitt, der dauerhaft ausgeführt wird, wie ihr das von der Makecode-Umgebung kennt. Darin wollen wir als erstes einmal den Zustand der Lampe behandeln. Dazu fragen wir den Zustand der Variable ```licht``` ab. Dies erreichen wir mit folgenden Zeilen:
-
-```python
-while True:
-    if licht:
-        display.show(lampe)
-    else:
-        display.clear()
-```
-
-Wenn wir Taste A drücken, senden wir die Zahl 0 über Funk um die Lampe am anderen micro:bit zu schalten: 
-
-```python
-if button_a.was_pressed():
-    radio.send_number(0)
-```
-
-Nun müssen wir noch auf die Funkmeldung des anderen micro:bit hören um die Lampe auf unserem micro:bit zu schalten. Wenn die Taste B gedrückt wird, müssen wir dasselbe tun.
-
-Damit wir den Programmteil, der den Inhalt der Variable ```licht``` ändert nur einmal schreiben müssen, erstellen wir die Funktion ```schalte_licht```. Eine Funktion ist ein Programmteil, der immer wieder aufgerufen werden kann unter dem vergebenen Namen. Die Funktion ändert beim Aufruf den Inhalt von ```licht``` wenn er aktuell ```False``` ist nach ```True``` und umgekehrt und gibt ihn zurück.
-```python
-def schalte(licht):
-    return not licht
-```
-
-Dies tun wir nun, wenn die Taste B gedrückt wird:
-
-```python
-if button_b.was_pressed():
-    licht = schalte(licht)
-```
-
-Und auch wenn wir eine ```0``` über Funk empfangen.
-
-```python
-data = radio.receive_packet()
-if data == 0:
-    licht = schalte(licht)
-```
-
-Am Schluss des Abschnitts schlafen wir für 100 ms um etwas Energie zu sparen:
-
-```python
-sleep(100)
-```
-
-
 
 ## Was haben wir gelernt
 
 *   Nutzen der Funkschnittstelle
 *   Erstellen von einfachen Funktionen
 
+## Programme
+
+*   [makecode::Funklichtschalter](https://makecode.microbit.org/_g6a0a4Y0sMuX)
