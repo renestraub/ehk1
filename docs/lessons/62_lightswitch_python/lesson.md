@@ -2,7 +2,7 @@
 
 ## Einleitung
 
-Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr die passende Einleitung unter in der unter [Funklichtschalter](../../60_lightswitch/lesson).
+Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr die passende Einleitung unter [Funklichtschalter](../../60_lightswitch/lesson).
 
 
 ## Verwendete Technologien
@@ -14,15 +14,15 @@ Wenn ihr euch entscheidet, diese Übung mit Python zu realisieren, findet ihr di
 
 ## Programmierung
 
-In dieser Übung programmieren wir einen einfachen Funklichtschalter. Die LED-Anzeige ist dabei die Lampe. Die Taste A des micro:bit ist dabei der Lichtschalter für die entfernte Lampe und die Taste B soll als Schalter für die eigene Lampe dienen.
+In dieser Übung programmieren wir einen einfachen Funklichtschalter. Die LED Anzeige ist dabei die Lampe. Die Taste A des micro:bit ist dabei der Lichtschalter für die entfernte Lampe und die Taste B soll als Schalter für die eigene Lampe dienen.
 
-Mit dem Drücken des Schalters soll die Lampe eingeschaltet werden und eingeschaltet bleiben, ein erneuter Tastendruck schaltet die Lampe wieder ab.
+Mit dem Drücken des Schalters soll die Lampe eingeschaltet werden, ein erneuter Tastendruck schaltet die Lampe wieder ab.
 
 Diese Übung führen wir in Zweiergruppen durch. Jede Gruppe wird von uns eine Gruppennummer erhalten. Dadurch stellen wir sicher, dass nur eure zwei micro:bits sich verstehen können und ihr so nicht die Tests der anderen Gruppe beeinflusst.
 
 Wir können den micro:bit auch mit Python programmieren. Dazu schreiben wir das Programm in Textform und nicht mit graphischen Blöcken.
 
-Damit unser micro:bit dasselbe Protokoll spricht wie mit der Makecode-Umgebung brauchen wir eine Bibliothek, welche ihm diese Fähigkeit beibringt. Zudem brauchen wir auch noch eine Bibliothek, welche die Grundfunktionen des micro:bit wie Taster und Anzeige  beinhaltet.
+Damit unser micro:bit dasselbe Protokoll spricht wie die Makecode Umgebung brauchen wir eine Bibliothek, welche ihm diese Fähigkeit beibringt. Zudem brauchen wir eine Bibliothek, welche die Grundfunktionen des micro:bit wie Taster und Anzeige beinhaltet.
 
 ```python
 from microbit import *
@@ -61,7 +61,7 @@ Da wir unser Licht auf verschiedene Weise ein- und ausschalten wollen, speichern
 licht = False
 ```
 
-Zudem benötigen wir eine Bild, dass wir darstellen können, welches die ganze LED-Anzeige einschalten. Das Bild nennen wir ```Lampe``` und setzen jede der fünf LEDs in jeder der fünf Zeilen auf 9, das heisst volle Helligkeit:
+Zudem benötigen wir ein Bild, dass wir darstellen können, welches die ganze LED-Anzeige einschalten. Das Bild nennen wir ```Lampe``` und setzen jede der fünf LEDs in jeder der fünf Zeilen auf 9, das heisst volle Helligkeit:
 
 ```python
 lampe = Image("99999:"
