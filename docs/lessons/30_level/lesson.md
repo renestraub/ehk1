@@ -69,8 +69,8 @@ Wir nutzen nun das Gelernte um eine Wasserwaage zu programmieren. Für die Wasse
 
 Um zu prüfen ob der Gegenstand, respektive der micro:bit, genau waagerecht liegt können wir die Kraft der Y-Achse oder X-Achse auswerten (oder sogar beide).
 
-Wenn der micro:bit exakt waagerecht liegt sollte in Richtung X-Achse keine oder nur eine sehr geringe Kraft messbar sein. In Richtung Y-Achse hingegen die ganze Erdbeschleunigung. Liegt er hingegen schräg, nimmt die Kraft der X-Achse zu und diejeniger der Y-Achse ab.
-Mit etwas Mathematik (Arkustangens) kann man aus den beiden Kräften den Winkel ausrechnen. 
+Wenn der micro:bit exakt waagerecht liegt sollte in Richtung X-Achse keine oder nur eine sehr geringe Kraft messbar sein. In Richtung Y-Achse hingegen die ganze Erdbeschleunigung. Liegt er hingegen schräg, nimmt die Kraft der X-Achse zu und die der Y-Achse ab.
+Wenn man will kann man mit etwas Mathematik (Arkustangens) aus den beiden Kräften den Winkel des micro:bit ausrechnen. 
 
 ![](image15.png) ![](image16.png)
 

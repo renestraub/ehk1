@@ -73,9 +73,8 @@ Wir setzen das gelernte nun zusammen um eine Alarmanlage für deinen Schulsack z
 
 Wie jede Alarmanlage soll man sie Ein- und Ausschalten können. Für das Ausschalten nutzen wir die Tastenkombination **A+B** sozusagen als Geheimcode. Zum Einschalten kann Taste **A** verwendet werden.
 
-Im folgenden siehst du ein mögliches Program. Die Besonderheit daran ist, dass wir einen **dauerhaft** Block einsetzten. Dieser führt seinen Inhalt dauernd aus, lässt aber trotzdem zu dass z.B. eine Taste abgefragt werden kann.
+Im folgenden siehst du ein mögliches Program. Die Besonderheit daran ist, dass wir einen **dauerhaft** Block einsetzten. Dieser führt seinen Inhalt dauernd aus, lässt aber trotzdem zu dass z.B. eine Taste abgefragt werden kann. So können wir mehrere Dinge gleichzeitig tun.
 
-So können wir mehrere Dinge gleichzeitig tun.
 *   Taste A abfragen: Alarm einschalten.
 *   Tasten A+B abfragen: Alarm ausschalten.
 *   **dauerhaft** im Hintergrund

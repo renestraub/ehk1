@@ -134,8 +134,9 @@ So richtig Spass macht der Würfel aber natürlich in echt auf dem micro:bit.
 
 ### Zufällige Zeit
 
-Mache dass dein Würfel eine zufällige Zeit rollt. 
-*   Ersetze die Anzahl Schleifen mit einer zufälligen Zahl, z.B. zwischen 1 und 10.
+Mache dass dein Würfel eine zufällige Zeit rollt.
+
+*    Ersetze die Anzahl Schleifen mit einer zufälligen Zahl, z.B. zwischen 1 und 10.
 
 
 ### Stromsparen
