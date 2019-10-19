@@ -21,7 +21,7 @@ Wenn alles klappt ändern wir das Program so ab dass es deinen Namen anzeigt.
 *   Oeffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
 *   Vergrössere das Fenster so dass es den ganzen Bildschirm ausfüllt.
 *   Klicke **Neues Projekt**.
-    *   Falls du die Texte auf English siehst, müssen wir die Sprache in deinem Browser auf Deutsch umstellen [Link](browser_settingss.md).
+    *   Falls du die Texte auf English siehst, müssen wir die Sprache in deinem Browser auf Deutsch umstellen [Link](browser_settings.md).
 *   Du bist nun im Editor wo du das Program schreiben kannst. Folgende Teile siehst du:
     * Links: micro:bit Simulator. In diesem werden wir das Program testen.
     * Mitte: Die Blöcke mit welchen zum Programmieren verwendet werden können.
@@ -90,7 +90,7 @@ Damit das funktioniert muss der micro:bit mit deinem Computer verbunden sein.
 *   Wähle **Herunterladen** 
     *   Es sollte sich ein Fenster öffnen, das fragt wohin gespeichert werden soll.
     *   Wähle den Microbit. Dies ist etwas schwierig beim ersten Mal. Wir helfen dir bei diesem Schritt.
-    *   **Sollte sich kein Fenster öffnen, müssen wir die Einstellung an deinem Browser ändern** [Link](browser_settingss.md).
+    *   **Sollte sich kein Fenster öffnen, müssen wir die Einstellung an deinem Browser ändern** [Link](browser_settings.md).
 
 ![](image5.png)
 
