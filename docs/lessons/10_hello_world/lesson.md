@@ -18,20 +18,20 @@ Wenn alles klappt ändern wir das Program so ab dass es deinen Namen anzeigt.
 
 ### Schritt 1: Das Program schreiben
 
-*   Oeffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
+*   Öffne mit dem Browser die [Makecode Website](https://makecode.microbit.org/). 
 *   Vergrössere das Fenster so dass es den ganzen Bildschirm ausfüllt.
 *   Klicke **Neues Projekt**.
-    *   Falls du die Texte auf English siehst, müssen wir die Sprache in deinem Browser auf Deutsch umstellen [Link](browser_settings.md).
+    *   Falls du die Texte auf Englisch siehst, müssen wir die Sprache in deinem Browser auf Deutsch umstellen [Link](browser_settings.md).
 *   Du bist nun im Editor wo du das Program schreiben kannst. Folgende Teile siehst du:
     * Links: micro:bit Simulator. In diesem werden wir das Program testen.
     * Mitte: Die Blöcke mit welchen zum Programmieren verwendet werden können.
     * Rechts: Der Editor in dem das Program zusammengestellt wird.
 
 
-Wir wollen den Text "Hello micro:bit" (ein klassiche Computerprogramm zum Testen) auf dem micro:bit anzeigen lassen.
+Wir wollen den Text "Hello micro:bit" (ein klassisches Computerprogramm zum Testen) auf dem micro:bit anzeigen lassen.
 
 * Wähle das Menü **Grundlagen** mit der Maus.
-* Suche den Block **zeige Zeichenfolge** und ziehe ihn in die Mitte des Editors. 
+* Suche den Block **zeige Zeichenfolge** und ziehe ihn in die Mitte des Editors.
 * Schiebe den Block mit der Maus in die Mitte von **beim Start**. Wenn du am richtigen Ort bist, kannst du den Block anschliessen.
 * Klicke mit der Maus auf den Text "Hello" und ändere ändern ihn auf "Hallo micro:bit".
 * Lösche den Block **dauerhaft**, er wird nicht benötigt.
@@ -54,7 +54,7 @@ Unterhalb des micro:bit siehst du eine graue Leiste mit verschiedenen Knöpfen. 
 *   Start/Stop (rot): Stoppt das laufende Program, startet es neu wenn gestoppt.
 *   Reset (blau): Startet das Program neu (auch wenn es schön läuft).
 
-Drücke den Reset Knopf und beobachte wie der Text "Hallo micro:bit" über den Bildschirm läuft. Während das Program läuft kannst du es mit dem Start/Stop Knopf anhalten, der Bildschirn wird dann grau um zu zeigen dass der Simulator angehalten ist.
+Drücke den Reset Knopf und beobachte wie der Text "Hallo micro:bit" über den Bildschirm läuft. Während das Program läuft kannst du es mit dem Start/Stop Knopf anhalten, der Bildschirm wird dann grau um zu zeigen dass der Simulator angehalten ist.
 
 
 
@@ -63,7 +63,7 @@ Drücke den Reset Knopf und beobachte wie der Text "Hallo micro:bit" über den B
 Das aktuelle Programm zeigt den Text genau einmal an wenn das Programm gestartet wird, danach bleibt der Bildschirm dunkel. Wir wollen das Programm erweitern, so dass der Text immer wieder angezeigt wird.
 
 *   Wähle aus dem Menu **Schleifen** den Block **während wahr** und platziere ihn im Editor.
-*   Verschiebe den Block **zeige Zeichfolge** in den neuen Block hinein.
+*   Verschiebe den Block **zeige Zeichenfolge** in den neuen Block hinein.
 
 Wir wollen nach dem Text eine kleine Pause einfügen, bevor er von vorne beginnt.
 

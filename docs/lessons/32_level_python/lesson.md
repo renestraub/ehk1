@@ -37,7 +37,7 @@ Dieses Programm kannst du z.B. auf deinem Notebook laufen lassen. Aber sogar dei
 
 Es gibt verschiedene Möglichkeiten den micro:bit mit MicroPython zu programmieren. Wir nutzen den offiziellen Online Python Editor des micro:bit Projekts.
 
-*   Oeffne mit dem Browser die [MicroPython Website](https://python-editor-2-0-0-beta-4.microbit.org/#). 
+*   Öffne mit dem Browser die [MicroPython Website](https://python-editor-2-0-0-beta-4.microbit.org/#). 
 *   Es öffnet sich ein Fenster in wir den Python Code unseres Programms eingeben können. Ein erstes Programm ist schon vorhanden.
 
 ![](image2.png)

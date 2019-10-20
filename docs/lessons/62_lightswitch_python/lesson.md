@@ -55,7 +55,7 @@ radio.off()
 radio.on()
 ```
 
-Da wir unser Licht auf verschiedene Weise ein- und ausschalten wollen, speichern wir den Zustand des der Lampe in der Variable ```licht```, welche wir auf ```False``` initialisieren, damit die Lampe beim Aufstarten aus ist. Diese Variable ist eine sogenannte boolsche Variable, das heisst sie kann nur zwei Zustände einnehmen: ```False``` und ```True``` was auf deutsch soviel heisst wie Falsch respektive Wahr.
+Da wir unser Licht auf verschiedene Weise ein- und ausschalten wollen, speichern wir den Zustand des der Lampe in der Variable ```licht```, welche wir auf ```False``` initialisieren, damit die Lampe beim Aufstarten aus ist. Diese Variable ist eine sogenannte boolesche Variable, das heisst sie kann nur zwei Zustände einnehmen: ```False``` und ```True``` was auf deutsch soviel heisst wie Falsch respektive Wahr.
 
 ```python
 licht = False
