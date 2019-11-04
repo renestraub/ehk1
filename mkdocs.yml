@@ -2,9 +2,9 @@ site_name: Kinder Uni - Embedded Computer
 
 nav:
   - Home: index.md
-  - Infos:
-    - info_way.md 
-    - info_material.md 
+#  - Infos:
+#    - info_way.md 
+#    - info_material.md 
   - Lektionen:
     - lessons/10_hello_world/lesson.md
     - lessons/20_dice/lesson.md

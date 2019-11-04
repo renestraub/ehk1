@@ -11,14 +11,14 @@ In diesem Kurs wollen wir lernen wie ein solcher Computer programmiert werden ka
 Nach einer gemeinsamen Einführung in die Programmierung kann jeder Teilnehmer selber eigene Programme schreiben.
 
 
-
+<!--
 ## Teilnehmer Informationen
 
 Auf den folgenden Seiten finden sich die wichtigsten Informationen für Euch. Bitte lest diese bevor ihr den Kurs besucht. Falls ihr noch Fragen habt, meldet euch bitte beim EHK.
 
 *   [Wegbeschreibung](info_way.md)
 *   [Kursmaterial](info_material.md)
-
+-->
   
 
 ## Lektionen
@@ -26,4 +26,3 @@ Auf den folgenden Seiten finden sich die wichtigsten Informationen für Euch. Bi
 Du findest eine Übersicht aller Lektionen dieses Kurses auf der [folgenden Seite](lessons/index.md).
 
 Wenn du von hier direkt zu einer Lektion springen willst kannst du auch das Menü **Lektionen** verwenden.
-
